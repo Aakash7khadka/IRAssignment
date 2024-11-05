@@ -27,11 +27,11 @@ public class Main {
         String[] stopWords = {"was", "is", "in", "to", "be"};
 
         // P01 a
-        //System.out.println("Standard Tokenizer:");
-        //printTokens(new StandardTokenizer(), sample_text);
+        System.out.println("Standard Tokenizer:");
+        printTokens(new StandardTokenizer(), sample_text);
 
-        //System.out.println("Whitespace Tokenizer:");
-        //printTokens(new WhitespaceTokenizer(), sample_text);
+        System.out.println("Whitespace Tokenizer:");
+        printTokens(new WhitespaceTokenizer(), sample_text);
 
         // P01 b
         System.out.println("Analyzer and StopwordFilter:");
@@ -39,7 +39,7 @@ public class Main {
         applyStandardAnalyzerAndStopFilter(new StandardTokenizer(), sample_text, stopWords);
 
         //P01 c
-        System.out.println("\nCustom Analyzer");
+        System.out.println("\nCustom Analyzer:");
         customAnalyzer(sample_text, stopWords);
 
     }
