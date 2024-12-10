@@ -1,9 +1,28 @@
 package org.example.Assignment4;
 
 import org.apache.lucene.analysis.*;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.*;
+import org.apache.lucene.document.Document;
+import org.apache.lucene.document.Field;
+import org.apache.lucene.document.TextField;
+import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.index.IndexWriter;
+import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.queryparser.classic.QueryParser;
+import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.search.Query;
+import org.apache.lucene.search.ScoreDoc;
+import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.search.similarities.BM25Similarity;
+import org.apache.lucene.search.similarities.ClassicSimilarity;
+import org.apache.lucene.search.similarities.Similarity;
+import org.apache.lucene.store.Directory;
+import org.apache.lucene.store.RAMDirectory;
 import org.example.entity.CustomAnalyzer;
 
+import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -32,6 +51,30 @@ public class Assignment4 {
         System.out.println("Euclidean Distance: " + euclideanDistance);
         System.out.println("Dot Product: " + dotProduct);
         System.out.println("Cosine Similarity: " + cosineSimilarity);
+
+        System.out.println();
+
+        //Assignment b
+        String query = "She is a sunny girl.";
+        QueryParser parser = new QueryParser("Input", new StandardAnalyzer());
+        Query queryObject = parser.parse(query);
+
+        Directory directory = new RAMDirectory();
+        IndexWriterConfig config = new IndexWriterConfig(new StandardAnalyzer());
+        IndexWriter indexWriter = new IndexWriter(directory, config);
+        for(String o : docs){
+            Document doc = new Document();
+            doc.add(new TextField("Input", o, Field.Store.YES));
+            indexWriter.addDocument(doc);
+        }
+        indexWriter.close();
+
+        IndexReader indexReader = DirectoryReader.open(directory);
+        IndexSearcher indexSearcher = new IndexSearcher(indexReader);
+
+        printVectorSpaceModelScores(indexSearcher, queryObject);
+        printBM25ModelScores(indexSearcher, queryObject);
+
     }
 
     private static List<List<String>> tokenizeDocs(String[] docs) throws Exception {
@@ -101,4 +144,22 @@ public class Assignment4 {
         double norm2 = Math.sqrt(dotProduct(vector2, vector2));
         return dot / (norm1 * norm2);
     }
+
+    public static void printModelScores(IndexSearcher searcher, Query query, Similarity similarity) throws IOException {
+        searcher.setSimilarity(similarity);
+        TopDocs docs = searcher.search(query, 5);
+        for (ScoreDoc sd : docs.scoreDocs)
+            System.out.println(sd.score + " : " + searcher.doc(sd.doc).get("Input"));
+    }
+
+    public static void printBM25ModelScores(IndexSearcher searcher, Query query) throws IOException {
+        System.out.println("Use BM25 Model");
+        printModelScores(searcher, query, new BM25Similarity());
+    }
+
+    public static void printVectorSpaceModelScores(IndexSearcher searcher, Query query) throws IOException {
+        System.out.println("Use Vector Space Model");
+        printModelScores(searcher, query, new ClassicSimilarity());
+    }
+
 }
