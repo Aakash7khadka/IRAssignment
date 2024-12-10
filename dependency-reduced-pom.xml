@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>org.example.Assignment3.Assignment3</mainClass>
+                  <mainClass>org.example.Assignment4.Assignment4</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -28,7 +28,7 @@
     </plugins>
   </build>
   <properties>
-    <main.class>org.example.Assignment3.Assignment3</main.class>
+    <main.class>org.example.Assignment4.Assignment4</main.class>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>

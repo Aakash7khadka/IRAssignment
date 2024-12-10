@@ -12,7 +12,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <main.class>org.example.Assignment3.Assignment3</main.class>
+        <main.class>org.example.Assignment4.Assignment4</main.class>
 
     </properties>
     <dependencies>
@@ -59,7 +59,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.example.Assignment3.Assignment3</mainClass>
+                                    <mainClass>org.example.Assignment4.Assignment4</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
