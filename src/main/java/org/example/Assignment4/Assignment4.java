@@ -140,14 +140,14 @@ public class Assignment4 {
     // Cosine Similarity
     private static double cosineSimilarity(Double[] vector1, Double[] vector2) {
         double dot = dotProduct(vector1, vector2);
-        double norm1 = Math.sqrt(dotProduct(vector1, vector1));
-        double norm2 = Math.sqrt(dotProduct(vector2, vector2));
-        return dot / (norm1 * norm2);
+        double length1 = Math.sqrt(dotProduct(vector1, vector1));
+        double length2 = Math.sqrt(dotProduct(vector2, vector2));
+        return dot / (length1 * length2);
     }
 
     public static void printModelScores(IndexSearcher searcher, Query query, Similarity similarity) throws IOException {
         searcher.setSimilarity(similarity);
-        TopDocs docs = searcher.search(query, 5);
+        TopDocs docs = searcher.search(query, 10);
         for (ScoreDoc sd : docs.scoreDocs)
             System.out.println(sd.score + " : " + searcher.doc(sd.doc).get("Input"));
     }
