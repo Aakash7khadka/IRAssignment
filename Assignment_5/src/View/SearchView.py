@@ -26,6 +26,7 @@ from PyQt5.QtCore import (
     pyqtSignal
 )
 
+from src.Controller.SearchController import SearchController
 
 class SearchView (QWidget):
     
@@ -33,12 +34,16 @@ class SearchView (QWidget):
     
     def __init__(self) -> None:
         super().__init__()
+
+        self.search_controller = SearchController ()
         
         self.main_grid_layout = QGridLayout ()
         
         self.input_line_edit = QLineEdit ()
         self.search_button = QPushButton ("Search")
+        self.search_button.pressed.connect (lambda: self.search_controller.search ())
         self.change_to_cluster_view_button = QPushButton ("Cluster")
+        
 
         self.scroll_widget = QWidget ()
         self.scroll_layout = QVBoxLayout ()

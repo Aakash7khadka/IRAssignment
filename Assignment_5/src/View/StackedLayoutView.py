@@ -23,8 +23,7 @@ class Stacked_Layout_View (QWidget):
 
         self.cluster_view           = ClusterView ()
 
-        self.stackedLayout.addWidget (self.cluster_view)
         self.stackedLayout.addWidget (self.search_view)
-        
+        self.stackedLayout.addWidget (self.cluster_view)     
         
         self.setLayout (self.stackedLayout)
