@@ -47,7 +47,8 @@ class MainView(QWidget):
     def applyStyles(self):
         primary_color = "rgba(44, 140, 142, 0.5)"
         secondary_color = "#C5C5C5"
-        background_color = "#F5F5F5"    
+        background_color = "#F5F5F5"  
+        background_color_2 = "#151515"  
         text_color = "#333333"
         button_color = "#2C8C8E"
         button_color_hover = "#2C6E8F"  ##2C6E8F

@@ -43,7 +43,7 @@ class SearchView (QWidget):
         
         self.input_line_edit = QLineEdit ()
         self.search_button = QPushButton ("Search")
-        self.search_button.pressed.connect (lambda: self.search_controller.search ())
+        self.search_button.pressed.connect (self.search)
         self.change_to_cluster_view_button = QPushButton ("Cluster")
         self.change_to_cluster_view_button.pressed.connect (lambda: self.change_stacked_layout_change.emit ())
         
@@ -101,4 +101,7 @@ class SearchView (QWidget):
         
         return range_box
 
+    def search (self):
+        query = self.input_line_edit.text()
+        self.search_controller.search (query)
 

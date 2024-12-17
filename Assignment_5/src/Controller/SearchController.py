@@ -13,9 +13,9 @@ class SearchController (QObject):
     def __init__(self):
         super().__init__()
 
-    def search (self):
+    def search (self, query: str):
         '''
         Here goes the code for searching
         '''
-        print ("Searching")
+        print (f"Searching for: {query}")
         
