@@ -32,18 +32,24 @@ from PyQt5.QtCore import (
 )
 
 from src.Utils.QtMatplotGraph import MatplotlibWidget
+from src.Controller.StackedLayoutController import StackeLayoutController
 
 class ClusterView (QWidget):
     
-   
-    def __init__(self) -> None:
+    change_stacked_layout_change = pyqtSignal ()
+
+    def __init__(self, controller: StackeLayoutController) -> None:
         super().__init__()
+
+        self.cluster_controller = controller.cluster_controller
+        self.stacked_layout_controller = controller
         
         self.main_grid_layout = QGridLayout ()
         
         self.input_line_edit = QLineEdit ()
         self.search_button = QPushButton ("Search")
-        self.change_to_cluster_view_button = QPushButton ("Cluster")
+        self.change_to_search_view_button = QPushButton ("Cluster")
+        self.change_to_search_view_button.pressed.connect (lambda: self.change_stacked_layout_change.emit ())
 
         self.cluster_graph = MatplotlibWidget ()
 
@@ -53,7 +59,7 @@ class ClusterView (QWidget):
         self.main_grid_layout.addWidget (self.input_line_edit, 0, 0, 1, 10)
         self.main_grid_layout.addWidget (self.search_button, 0, 10, 1, 2)
         self.main_grid_layout.addWidget (self.cluster_graph, 1, 0, 10, 12)
-        self.main_grid_layout.addWidget (self.change_to_cluster_view_button, 12, 4, 1, 4)
+        self.main_grid_layout.addWidget (self.change_to_search_view_button, 12, 4, 1, 4)
 
         self.setLayout (self.main_grid_layout)
 

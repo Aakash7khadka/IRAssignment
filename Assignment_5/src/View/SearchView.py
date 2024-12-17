@@ -27,15 +27,17 @@ from PyQt5.QtCore import (
 )
 
 from src.Controller.SearchController import SearchController
+from src.Controller.StackedLayoutController import StackeLayoutController
 
 class SearchView (QWidget):
     
-    get_ranges = pyqtSignal (int)
+    change_stacked_layout_change = pyqtSignal ()
     
-    def __init__(self) -> None:
+    def __init__(self, controller: StackeLayoutController) -> None:
         super().__init__()
 
-        self.search_controller = SearchController ()
+        self.search_controller = controller.search_controller
+        self.stacked_layout_controller = controller
         
         self.main_grid_layout = QGridLayout ()
         
@@ -43,6 +45,7 @@ class SearchView (QWidget):
         self.search_button = QPushButton ("Search")
         self.search_button.pressed.connect (lambda: self.search_controller.search ())
         self.change_to_cluster_view_button = QPushButton ("Cluster")
+        self.change_to_cluster_view_button.pressed.connect (lambda: self.change_stacked_layout_change.emit ())
         
 
         self.scroll_widget = QWidget ()
