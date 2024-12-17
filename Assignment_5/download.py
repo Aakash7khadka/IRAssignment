@@ -7,7 +7,7 @@ import re
 #make sure you set it properly, in case you dont want the default one
 
 #this is the title we will search
-topic = "Machine_Learning"
+topic = "Rahul_Dravid"
 
 
 #this is the config for to get the first introduction of a title
