@@ -1,0 +1,17 @@
+In solid state physics, a particle's effective mass (often denoted 
+  
+    
+      
+        
+          m
+          
+            ∗
+          
+        
+      
+    
+    {\textstyle m^{*}}
+  
+) is the mass that it seems to have when responding to forces, or the mass that it seems to have when interacting with other identical particles in a thermal distribution. One of the results from the band theory of solids is that the movement of particles in a periodic potential, over long distances larger than the lattice spacing, can be very different from their motion in a vacuum.  The effective mass is a quantity that is used to simplify band structures by modeling the behavior of a free particle with that mass.  For some purposes and some materials, the effective mass can be considered to be a simple constant of a material. In general, however, the value of effective mass depends on the purpose for which it is used, and can vary depending on a number of factors.
+For electrons or electron holes in a solid, the effective mass is usually stated as a factor multiplying the rest mass of an electron, me (9.11 × 10−31 kg). This factor is usually in the range 0.01 to 10, but can be lower or higher—for example, reaching 1,000 in exotic heavy fermion materials, or anywhere from zero to infinity (depending on definition) in graphene. As it simplifies the more general band theory, the electronic effective mass can be seen as an important basic parameter that influences measurable properties of a solid, including everything from the efficiency of a solar cell to the speed of an integrated circuit.
+

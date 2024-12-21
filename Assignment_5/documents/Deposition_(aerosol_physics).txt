@@ -1,0 +1,26 @@
+In the physics of aerosols, deposition is the process by which aerosol particles collect or deposit themselves on solid surfaces, decreasing the concentration of the particles in the air.  It can be divided into two sub-processes: dry and wet deposition. The rate of deposition, or the deposition velocity, is slowest for particles of an intermediate size.  Mechanisms for deposition are most effective for either very small or very large particles.  Very large particles will settle out quickly through sedimentation (settling) or impaction processes, while Brownian diffusion has the greatest influence on small particles.  This is because very small particles coagulate in few hours until they achieve a diameter of 0.5 micrometres.  At this size they no longer coagulate. This has a great influence in the amount of PM-2.5 present in the air.
+Deposition velocity is defined from F = vc, where F is flux density, v is deposition velocity and c is concentration. In gravitational deposition, this velocity is the settling velocity due to the gravity-induced drag.
+Often studied is whether or not a certain particle will impact with a certain obstacle. This can be predicted with the Stokes number Stk = S / d, where S is stopping distance (which depends on particle size, velocity and drag forces), and d is characteristic size (often the diameter of the obstacle). If the value of Stk is less than 1, the particle will not collide with that obstacle. However, if the value of Stk is greater than 1, it will.
+Deposition due to Brownian motion obeys both Fick's first and second laws. The resulting deposition flux is defined as 
+  
+    
+      
+        J
+        =
+        n
+        
+          
+            
+              D
+              
+                π
+                t
+              
+            
+          
+        
+      
+    
+    {\textstyle J=n{\sqrt {\frac {D}{\pi t}}}}
+  
+, where J is deposition flux, n is the initial number density, D is the diffusion constant and t is time. This can be integrated to determine the concentration at each moment of time.

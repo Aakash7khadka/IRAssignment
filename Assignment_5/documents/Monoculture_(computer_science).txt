@@ -1,0 +1,1 @@
+In computer science, a monoculture is a community of computers that all run identical software. All the computer systems in the community thus have the same vulnerabilities, and, like agricultural monocultures, are subject to catastrophic failure in the event of a successful attack.

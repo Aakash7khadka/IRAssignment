@@ -1,0 +1,3 @@
+In theoretical physics, cutoff (AE: cutoff, BE: cut-off) is an arbitrary maximal or minimal value of energy, momentum, or length, used in order that objects with larger or smaller values than these physical quantities are ignored in some calculation. It is usually represented within a particular energy or length scale, such as Planck units.
+When used in this context, the traditional terms "infrared" and "ultraviolet" are not literal references to specific regions of the spectrum, but rather refer by analogy to portions of a calculation for low energies (infrared) and high energies (ultraviolet), respectively.
+

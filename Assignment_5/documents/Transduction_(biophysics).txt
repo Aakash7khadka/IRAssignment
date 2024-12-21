@@ -1,0 +1,7 @@
+In biophysics, transduction is the conveyance of energy from one electron (a donor) to another (a receptor), at the same time that the class of energy changes.
+Photonic energy, the kinetic energy of a photon, may follow the following paths:
+
+be released again as a photon of less energy;
+be transferred to a recipient with no change in class;
+be dissipated as heat; or
+be transduced.

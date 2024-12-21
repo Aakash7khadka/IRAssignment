@@ -1,0 +1,2 @@
+In computer science, arrows or bolts are a type class used in programming to describe computations in a pure and declarative fashion. First proposed by computer scientist John Hughes as a generalization of monads, arrows provide a referentially transparent way of expressing relationships between logical steps in a computation. Unlike monads, arrows don't limit steps to having one and only one input. As a result, they have found use in functional reactive programming, point-free programming, and parsers among other applications.
+

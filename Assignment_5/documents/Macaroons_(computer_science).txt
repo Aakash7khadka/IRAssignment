@@ -1,0 +1,2 @@
+In computer security, macaroons are authorization credentials that support decentralized delegation between principals.
+Macaroons are used in a variety of systems, including the Ubuntu Snappy package manager, the HyperDex data store, the Matrix communication protocol, and the Python Package Index.

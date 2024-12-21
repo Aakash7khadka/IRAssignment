@@ -1,0 +1,2 @@
+The X-factor in astrophysics, often labeled XCO, is an empirically determined proportionality constant which converts carbon monoxide (CO) emission line brightness to molecular hydrogen (H2) mass. The term X-factor was coined in a 1983 paper titled "Gamma-rays from atomic and molecular gas in the first galactic quadrant" and published in The Astrophysical Journal.
+

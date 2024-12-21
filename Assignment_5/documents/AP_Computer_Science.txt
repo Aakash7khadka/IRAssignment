@@ -1,0 +1,2 @@
+The Advanced Placement (AP) Computer Science (shortened to AP Comp Sci or APCS) program includes two Advanced Placement courses and examinations covering the field of computer science. They are offered by the College Board to high school students as an opportunity to earn college credit for college-level courses. The program consists of two current courses (Computer Science Principles and Computer Science A) and one discontinued course (Computer Science AB).
+AP Computer Science was taught using Pascal for the 1984–1998 exams, C++ for 1999–2003, and Java since 2004.

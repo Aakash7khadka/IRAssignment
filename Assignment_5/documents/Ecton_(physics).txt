@@ -1,0 +1,3 @@
+Ectons are explosive electron emissions observed as individual packets or avalanches of electrons, occurring as microexplosions at the cathode. The electron current in an ecton starts flowing as a result of overheating of the metal cathode because of the high energy density (104Jg−1), and stops when the emission zone cools off.
+Ectons occur in plasma-involving phenomena, such as: electrical discharges in vacuum, cathode spots of vacuum arcs, volumetric discharges in gases, pseudosparks, coronas, unipolar arcs, etc.
+An ecton consists of individual portions of electrons (1011– 1012 particles). The formation time is of the order of nanoseconds.

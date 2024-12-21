@@ -1,0 +1,4 @@
+In physics, a variational principle is an alternative method for determining the state or dynamics of a physical system, by identifying it as an extremum (minimum, maximum or saddle point) of a function or functional. Variational methods are exploited in many modern software to simulate matter and light.
+Since the development of analytical mechanics in the 18th century, the fundamental equations of physics have usually been established in terms of action principles, where the variational principle is applied to the action of a system in order to recover the fundamental equation of motion.
+This article describes the historical development of such action principles and other variational methods applied in physics. See History of physics for an overview and Outline of the history of physics for related histories.
+

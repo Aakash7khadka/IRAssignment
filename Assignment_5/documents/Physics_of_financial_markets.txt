@@ -1,0 +1,4 @@
+Physics of financial markets is a non-orthodox economics discipline that studies financial markets as physical systems. It seeks to understand the nature of financial processes and phenomena by employing the scientific method and avoiding beliefs, unverifiable assumptions and immeasurable notions, not uncommon to economic disciplines.
+Physics of financial markets addresses issues such as theory of price formation, price dynamics, market ergodicity, collective phenomena, market self-action, and market instabilities.
+Physics of financial markets should not be confused with mathematical finance, which are only concerned with descriptive mathematical modeling of financial instruments without seeking to understand nature of underlying processes.
+

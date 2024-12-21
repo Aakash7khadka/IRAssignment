@@ -1,0 +1,2 @@
+Coherent states have been introduced in a physical context, first as quasi-classical states in quantum mechanics, then as the backbone of quantum optics and they are described in that spirit in the article Coherent states (see also). However, they have generated a huge variety of generalizations, which have led to a tremendous amount of literature in mathematical physics.
+In this article, we sketch the main directions of research on this line. For further details, we refer to several existing surveys.

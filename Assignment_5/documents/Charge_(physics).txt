@@ -1,0 +1,43 @@
+In physics, a charge is any of many different quantities, such as the electric charge in electromagnetism or the color charge in quantum chromodynamics. Charges correspond to the time-invariant generators of a symmetry group, and specifically, to the generators that commute with the Hamiltonian.  Charges are often denoted by 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle Q}
+  
+, and so the invariance of the charge corresponds to the vanishing commutator 
+  
+    
+      
+        [
+        Q
+        ,
+        H
+        ]
+        =
+        0
+      
+    
+    {\displaystyle [Q,H]=0}
+  
+, where 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ is the Hamiltonian. Thus, charges are associated with conserved quantum numbers; these are the eigenvalues of the generator 
+  
+    
+      
+        Q
+      
+    
+    {\displaystyle Q}
+  
+. A "charge" can also refer to a point-shaped object with an electric charge and a position, such as in the method of image charges.

@@ -1,0 +1,2 @@
+In computer science, a Lease is a contract that gives its holder specified rights to some resource for a limited period. Because it is time-limited, a lease is an alternative to a lock for resource serialization.
+

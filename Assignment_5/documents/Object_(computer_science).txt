@@ -1,0 +1,9 @@
+In software development, an object is an entity that has state, behavior, and identity.: 78  An object can model some part of reality or can be an invention of the design process whose collaborations with other such objects serve as the mechanisms that provide some higher-level behavior. Put another way, an object represents an individual, identifiable item, unit, or entity, either real or abstract, with a well-defined role in the problem domain.: 76 
+A programming language can be classified based on its support for objects. A language that provides an encapsulation construct for state, behavior, and identity is classified as object-based. If the language also provides polymorphism and inheritance it is classified as object-oriented. A language that supports creating an object from a class is classified as class-based. A language that supports object creation via a template object is classified as prototype-based.
+The concept of object is used in many different software contexts, including:
+
+Possibly the most common use is in-memory objects in a computer program written in an object-based language.
+Information systems can be modeled with objects representing their components and interfaces.: 39 
+In the relational model of database management, aspects such as table and column may act as objects.
+Objects of a distributed computing system tend to be larger grained, longer lasting, and more service-oriented than programming objects.
+

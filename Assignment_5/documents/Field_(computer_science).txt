@@ -1,0 +1,2 @@
+In data hierarchy, a field (data field) is a variable in a record. A record, also known as a data structure, allows logically related data to be identified by a single name. Identifying related data as a single group is central to the construction of understandable computer programs. The individual fields in a record may be accessed by name, just like any variable in a computer program.
+Each field in a record has two components. One component is the field's datatype declaration. The other component is the field's identifier.

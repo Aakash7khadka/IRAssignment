@@ -1,0 +1,2 @@
+In physics a null is a point in a field where the field quantity is zero as the result of two or more opposing quantities completely cancelling each other.  The field may be scalar, vector or tensor in nature.  Common situations where nulls arise are in the polar patterns of microphones and antennae, and nulls caused by reflections of waves.
+

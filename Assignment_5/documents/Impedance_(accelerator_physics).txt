@@ -1,0 +1,1 @@
+In accelerator physics, impedance is a quantity that characterizes the self interaction of a charged particle beam, mediated by the beam environment, such as the vacuum chamber, RF cavities, and other elements encountered along the accelerator or storage ring.

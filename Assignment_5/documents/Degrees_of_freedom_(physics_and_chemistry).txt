@@ -1,0 +1,26 @@
+In physics and chemistry, a degree of freedom is an independent physical parameter in the chosen parameterization of a physical system. More formally, given a parameterization of a physical system, the number of degrees of freedom is the smallest number 
+  
+    
+      
+        n
+      
+    
+    {\textstyle n}
+  
+ of parameters whose values need to be known in order to always be possible to determine the values of all parameters in the chosen parameterization. In this case, any set of 
+  
+    
+      
+        n
+      
+    
+    {\textstyle n}
+  
+ such parameters are called degrees of freedom.
+The location of a particle in three-dimensional space requires three position coordinates. Similarly, the direction and speed at which a particle moves can be described in terms of three velocity components, each in reference to the three dimensions of space.  So, if the time evolution of the system is deterministic (where the state at one instant uniquely determines its past and future position and velocity as a function of time), such a system has six degrees of freedom. If the motion of the particle is constrained to a lower number of dimensions – for example, the particle must move along a wire or on a fixed surface – then the system has fewer than six degrees of freedom. On the other hand, a system with an extended object that can rotate or vibrate can have more than six degrees of freedom.
+In classical mechanics, the state of a point particle at any given time is often described with position and velocity coordinates in the Lagrangian formalism, or with position and momentum coordinates in the Hamiltonian formalism.
+In statistical mechanics, a degree of freedom is a single scalar number describing the microstate of a system. The specification of all microstates of a system is a point in the system's phase space.
+In the 3D ideal chain model in chemistry, two angles are necessary to describe the orientation of each monomer.
+It is often useful to specify quadratic degrees of freedom. These are degrees of freedom that contribute in a quadratic function to the energy of the system.
+Depending on what one is counting, there are several different ways that degrees of freedom can be defined,
+each with a different value.

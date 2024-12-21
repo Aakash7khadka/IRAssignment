@@ -1,0 +1,1 @@
+Polling, or interrogation, refers to actively sampling the status of an external device by a client program as a synchronous activity. Polling is most often used in terms of input/output (I/O), and is also referred to as polled I/O or software-driven I/O. A good example of hardware implementation is a watchdog timer.

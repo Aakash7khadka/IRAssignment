@@ -1,0 +1,2 @@
+A meron or half-instanton is a Euclidean space-time solution of the Yang–Mills field equations. It is a singular non-self-dual solution of topological charge 1/2. The instanton is believed to be composed of two merons.
+A meron can be viewed as a tunneling event between two Gribov vacua. In that picture, the meron is an event which starts from vacuum, then a Wu–Yang monopole emerges, which then disappears again to leave the vacuum in another Gribov copy.

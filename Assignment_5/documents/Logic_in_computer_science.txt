@@ -1,0 +1,5 @@
+Logic in computer science covers the overlap between the field of logic and that of computer science. The topic can essentially be divided into three main areas:
+
+Theoretical foundations and analysis
+Use of computer technology to aid logicians
+Use of concepts from logic for computer applications

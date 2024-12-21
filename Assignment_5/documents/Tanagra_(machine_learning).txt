@@ -1,0 +1,4 @@
+Tanagra is a free suite of machine learning software for research and academic purposes
+developed by Ricco Rakotomalala at the Lumière University Lyon 2, France.
+Tanagra supports several standard data mining tasks such as: Visualization, Descriptive statistics, Instance selection, feature selection, feature construction, regression, factor analysis, clustering, classification and association rule learning.
+Tanagra is an academic project. It is widely used in French-speaking universities. Tanagra is frequently used in real studies and in software comparison papers.

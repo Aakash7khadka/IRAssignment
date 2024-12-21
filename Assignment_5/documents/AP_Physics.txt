@@ -1,0 +1,8 @@
+Advanced Placement (AP) Physics is a set of four courses offered by the College Board as part of its Advanced Placement program:
+
+AP Physics C: Mechanics, an introductory college-level course in mechanics;
+AP Physics 1, an alternative to AP Physics C: Mechanics that avoids calculus but includes fluids;
+AP Physics C: Electricity and Magnetism, an introductory calculus-based treatment of electromagnetism; and
+AP Physics 2, a survey of electromagnetism, optics, thermodynamics, and modern physics.
+Each AP course has an exam for which high-performing students may receive credit toward their college coursework.
+

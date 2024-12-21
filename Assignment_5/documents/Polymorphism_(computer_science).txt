@@ -1,0 +1,7 @@
+In programming language theory and type theory, polymorphism is the use of one symbol to represent multiple different types.
+In object-oriented programming, polymorphism is the provision of one interface to entities of different data types.  The concept is borrowed from a principle in biology where an organism or species can have many different forms or stages.
+The most commonly recognized major forms of polymorphism are:
+
+Ad hoc polymorphism: defines a common interface for an arbitrary set of individually specified types.
+Parametric polymorphism: not specifying concrete types and instead use abstract symbols that can substitute for any type.
+Subtyping (also called subtype polymorphism or inclusion polymorphism): when a name denotes instances of many different classes related by some common superclass.

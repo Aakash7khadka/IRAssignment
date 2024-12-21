@@ -1,0 +1,2 @@
+The Journal of Machine Learning Research is a peer-reviewed open access scientific journal covering machine learning. It was established in 2000 and the first editor-in-chief was Leslie Kaelbling. The current editors-in-chief are Francis Bach (Inria) and David Blei (Columbia University).
+

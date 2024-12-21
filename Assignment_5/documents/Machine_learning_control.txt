@@ -1,0 +1,2 @@
+Machine learning control (MLC) is a subfield of machine learning, intelligent control, and control theory which aims to solve optimal control problems with machine learning methods. Key applications are complex nonlinear systems for which linear control theory methods are not applicable.
+

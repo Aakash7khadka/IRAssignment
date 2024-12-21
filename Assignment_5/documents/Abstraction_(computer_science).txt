@@ -1,0 +1,5 @@
+In software engineering and computer science, abstraction is the process of generalizing concrete details, such as attributes, away from the study of objects and systems to focus attention on details of greater importance. Abstraction is a fundamental concept in computer science and software engineering, especially within the object-oriented programming paradigm. Examples of this include:
+
+the usage of abstract data types to separate usage from working representations of data within programs;
+the concept of functions or subroutines which represent a specific way of implementing control flow;
+the process of reorganizing common behavior from groups of non-abstract classes into abstract classes using inheritance and sub-classes, as seen in object-oriented programming languages.

@@ -1,0 +1,2 @@
+In visual perception, structure from motion (SFM) refers to how humans (and other living creatures) recover depth structure from object's motion. The human visual field has an important function: capturing the three-dimensional structures of an object using different kinds of visual cues.
+SFM is a kind of motion visual cue that uses motion of two-dimensional surfaces to demonstrate three-dimensional objects, and this visual cue works really well even independent of other depth cues. Psychological, especially psychophysical studies have been focused on this topic for decades.

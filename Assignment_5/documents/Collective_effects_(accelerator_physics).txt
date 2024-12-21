@@ -1,0 +1,4 @@
+Charged particle beams in a particle accelerator or a storage ring undergo a variety of different processes.  Typically the beam dynamics is broken down into single particle dynamics and collective effects.  Sources of collective effects include single or multiple inter-particle scattering and interaction with the vacuum chamber and other surroundings, formalized in terms of impedance.
+The collective effects of charged particle beams in particle accelerators share some similarity to the dynamics of plasmas.  In particular, a charged particle beam may be considered as a non-neutral plasma, and one may find mathematical methods in common with the study of stability or instabilities.  One may also find commonality with the field of fluid mechanics
+since the density of charged particles is often sufficient to be considered as flowing continuum.
+Another important topic is the attempt to mitigate collective effects by use of single bunch or multi-bunch feedback systems.

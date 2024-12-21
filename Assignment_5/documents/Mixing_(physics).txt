@@ -1,0 +1,37 @@
+In physics, there are several distinct notions of mixing, all of which try to capture the common-sense notion of mixing, but using rather disparate formal methods, techniques and definitions. One approach is to focus on mixtures of fluids, in three-dimensional space, described by differential equations suitable for fluids, such as the Navier–Stokes equations. The route to the final mixed state typically proceeds through turbulence created during mixing. A second approach considers the mixing of aggregates, such as rocks and sand, which are lumpy on the small scale; this is commonly seen in mixing in process engineering. A third approach uses the mathematical formalisms of measure theory and measure-preserving dynamical systems, to define mixing abstractly for generic dynamical systems in arbitrary dimensions. For example, by assigning a position and a velocity to each atom in a fluid, the mixing takes place in a 
+  
+    
+      
+        
+          6
+          
+            N
+          
+        
+      
+    
+    {\displaystyle 6^{N}}
+  
+-dimensional space, where 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ is approximately the Avogadro number and 
+  
+    
+      
+        6
+        =
+        3
+        +
+        3
+      
+    
+    {\displaystyle 6=3+3}
+  
+ is the dimension of the phase space (position plus velocity) of a single atom.

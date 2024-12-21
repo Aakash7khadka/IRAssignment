@@ -1,0 +1,15 @@
+In computer science, the general meaning of input is to provide or give something to the computer, in other words, when a computer or device is receiving a command or signal from outer sources, the event is referred to as input to the device.
+Some computer devices can also be categorized as input devices  because we use these devices to send instructions to the computer, some common examples of computer input devices are:
+
+Mouse
+Keyboard
+Touchscreen
+Microphone
+Webcam
+Softcam
+Touchpad
+Trackpad
+Image scanner
+Trackball
+Also some internal components of computer are input components to other components, like the power-on button of a computer is an input component for the processor or the power supply, because it takes user input and sends it to other components for further processing.
+In many computer languages the keyword "input" is used as a special keyword or function, such as in Visual Basic or Python. The command "input" is used to give the machine the data it has to process.

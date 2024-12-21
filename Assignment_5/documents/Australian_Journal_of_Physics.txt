@@ -1,0 +1,6 @@
+The Australian Journal of Physics was a peer-reviewed scientific journal published by the Commonwealth Scientific and Industrial Research Organisation in Australia. It was a journal for the publication of reviews covering all branches of physics. The journal surveyed the development of selected topics within the wider context of physics.
+The journal published its last issue in April 2001 and is no longer receiving papers. The journal's electronic archive, covering the years 1953–2001, is available for free full text access.
+One of the most highly cited papers published in the journal is
+
+Bracewell, Ronald N. (1956). "Strip Integration in Radio Astronomy". Australian Journal of Physics. 9: 198–217. Bibcode:1956AuJPh...9..198B. doi:10.1071/PH560198.
+in which he first presented the projection-slice theorem widely used in medical imaging.

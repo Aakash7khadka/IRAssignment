@@ -1,0 +1,4 @@
+Computer Physics Communications is a peer-reviewed scientific journal published by Elsevier under the North-Holland imprint.
+The journal focuses on computational methodology, numerical analysis and hardware and software development in support of physics and physical chemistry.
+According to the Journal Citation Reports, the journal has a 2023 impact factor of 7.2.
+

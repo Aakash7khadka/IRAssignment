@@ -1,0 +1,14 @@
+The Journal of Statistical Physics is a biweekly publication containing both original and review papers, including book reviews. All areas of statistical physics as well as related fields concerned with collective phenomena in physical systems are covered. 
+The journal was established by Howard Reiss.  Joel L. Lebowitz is the honorary editor.
+In the period 1969–1979 the journal published about 65 articles per year, while in the 1980–2016 period approximately 220 articles per year. In total, as to 2017, more than 9000 articles have appeared on this journal. According to Web of Science as of July 2017 the 10 most cited articles which have appeared on this journal are:
+
+Tsallis, C, Possible generalization of Boltzmann-Gibbs statistics, J. Stat. Phys., vol. 52(1-2), 479–487, (1988). Times Cited: 4,245
+Feigenbaum, MJ, Quantitative universality for a class of non-linear transformations, J. Stat. Phys., vol. 19(1), 25–52, (1978). Times Cited: 2,230
+Sauer, T; Yorke, JA; Casdagli, M, Embedology, J. Stat. Phys., vol. 65(3-4), 579–616, (1991). Times Cited: 1,319
+Wertheim, MS, Fluids with highly directional attractive forces. 1. Statistical thermodynamics, J. Stat. Phys., vol. 35(1-2), 19–34, (1984). Times Cited: 1,232
+Wertheim, MS, Fluids with highly directional attractive forces. 3. Multiple attraction sites, J. Stat. Phys., vol. 42(3-4), 459–476, (1986). Times Cited: 1,109
+Feigenbaum, MJ, Universal metric properties of non-linear transformations, J. Stat. Phys., vol. 21(6), 669–706, (1979). Times Cited: 1,071
+Wertheim, MS, Fluids with highly directional attractive forces. 2. Thermodynamic perturbation-theory and integral-equations, J. Stat. Phys., vol. 35(1-2), 35–47, (1984). Times Cited: 1,051
+Wertheim, MS, Fluids with highly directional attractive forces. 4. equilibrium polymerization, J. Stat. Phys., vol. 42(3-4), 477–492, (1986). Times Cited: 984
+Voorhees, PW, The theory of Ostwald Ripening, J. Stat. Phys., vol. 38(1-2), 231–252, (1985). Times Cited: 820
+Kirkpatrick, S, Optimization by simulated annealing - Quantitative studies, J. Stat. Phys., vol. 34(5-6), 975–986, (1984). Times Cited: 809

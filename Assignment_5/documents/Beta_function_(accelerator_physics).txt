@@ -1,0 +1,63 @@
+The beta function in accelerator physics is a function related to the transverse size of the particle beam at the location s along the nominal beam trajectory.
+It is related to the transverse beam size as follows:
+
+  
+    
+      
+        σ
+        (
+        s
+        )
+        =
+        
+          
+            ϵ
+            ⋅
+            β
+            (
+            s
+            )
+          
+        
+      
+    
+    {\displaystyle \sigma (s)={\sqrt {\epsilon \cdot \beta (s)}}}
+  
+
+where 
+
+  
+    
+      
+        s
+      
+    
+    {\displaystyle s}
+  
+ is the location along the nominal beam trajectory
+the beam is assumed to have a Gaussian shape in the transverse direction
+
+  
+    
+      
+        σ
+        (
+        s
+        )
+      
+    
+    {\displaystyle \sigma (s)}
+  
+ is the width parameter of this Gaussian
+
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+  
+ is the RMS geometrical beam emittance, which is normally constant along the trajectory when there is no acceleration
+Typically, separate beta functions are used for two perpendicular directions in the plane transverse to the beam direction (e.g. horizontal and vertical directions).
+The beta function is one of the Courant–Snyder parameters (also called Twiss parameters).

@@ -1,0 +1,136 @@
+In quantum field theory, a branch of theoretical physics, crossing is the property of scattering amplitudes that allows antiparticles to be interpreted as particles going backwards in time.
+Crossing states that the same formula that determines the S-matrix elements and scattering amplitudes for particle 
+  
+    
+      
+        
+          A
+        
+      
+    
+    {\displaystyle \mathrm {A} }
+  
+ to scatter with 
+  
+    
+      
+        
+          X
+        
+      
+    
+    {\displaystyle \mathrm {X} }
+  
+ and produce particle 
+  
+    
+      
+        
+          B
+        
+      
+    
+    {\displaystyle \mathrm {B} }
+  
+ and 
+  
+    
+      
+        
+          Y
+        
+      
+    
+    {\displaystyle \mathrm {Y} }
+  
+ will also give the scattering amplitude for 
+  
+    
+      
+        
+          A
+        
+        +
+        
+          
+            
+              
+                B
+              
+              ¯
+            
+          
+        
+        +
+        
+          X
+        
+      
+    
+    {\displaystyle \mathrm {A} +{\bar {\mathrm {B} }}+\mathrm {X} }
+  
+ to go into 
+  
+    
+      
+        
+          Y
+        
+      
+    
+    {\displaystyle \mathrm {Y} }
+  
+, or for 
+  
+    
+      
+        
+          
+            
+              
+                B
+              
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle {\bar {\mathrm {B} }}}
+  
+ to scatter with 
+  
+    
+      
+        
+          X
+        
+      
+    
+    {\displaystyle \mathrm {X} }
+  
+ to produce 
+  
+    
+      
+        
+          Y
+        
+        +
+        
+          
+            
+              
+                A
+              
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {Y} +{\bar {\mathrm {A} }}}
+  
+. The only difference is that the value of the energy is negative for the antiparticle.
+The formal way to state this property is that the antiparticle scattering amplitudes are the analytic continuation of particle scattering amplitudes to negative energies. The interpretation of this statement is that the antiparticle is in every way a particle going backwards in time.
+

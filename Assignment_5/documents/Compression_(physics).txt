@@ -1,0 +1,61 @@
+In mechanics, compression is the application of balanced inward ("pushing") forces to different points on a material or structure, that is, forces with no net sum or torque directed so as to reduce its size in one or more directions. It is contrasted with tension or traction, the application of balanced outward ("pulling") forces; and with shearing forces, directed so as to displace layers of the material parallel to each other.  The compressive strength of materials and structures is an important engineering consideration.
+In uniaxial compression, the forces are directed along one direction only, so that they act towards decreasing the object's length along that direction.  The compressive forces may also be applied in multiple directions; for example inwards along the edges of a plate or all over the side surface of a cylinder, so as to reduce its area (biaxial compression), or inwards over the entire surface of a body, so as to reduce its volume.
+Technically, a material is under a state of compression, at some specific point and along a specific direction 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+, if the normal component of the stress vector across a surface with normal direction 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ is directed opposite to 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+.  If the stress vector itself is opposite to 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+, the material is said to be under normal compression or pure compressive stress along 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+.  In a solid, the amount of compression generally depends on the direction 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+, and the material may be under compression along some directions but under traction along others.  If the stress vector is purely compressive and has the same magnitude for all directions, the material is said to be under isotropic compression, hydrostatic compression, or bulk compression.  This is the only type of static compression that liquids and gases can bear. It affects the volume of the material, as quantified by the bulk modulus and the volumetric strain.
+
+The inverse process of compression is called decompression, dilation, or expansion, in which the object enlarges or increases in volume.
+In a mechanical wave, which is longitudinal, the medium is displaced in the wave's direction, resulting in areas of compression and rarefaction.
+

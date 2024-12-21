@@ -1,0 +1,6 @@
+The Breakthrough Propulsion Physics Project (BPP) was a research project funded by NASA from 1996 to 2002 to study various proposals for revolutionary methods of spacecraft propulsion that would require breakthroughs in physics before they could be realized. The project ended in 2002, when the Advanced Space Transportation Program was reorganized and all speculative research (less than Technology readiness level 3) was cancelled.
+During its six years of operational funding, this program received a total investment of $1.2 million.  
+The Breakthrough Propulsion Physics project addressed a selection of "incremental and affordable" research questions towards the overall goal of propellantless propulsion, hyperfast travel, and breakthrough propulsion methods. It selected and funded five external projects, two in-house tasks and one
+minor grant.
+At the end of the project, conclusions into fourteen topics, including these funded projects, were summarized by program manager Marc G. Millis. Of these, six research avenues were found to be nonviable, four were identified as opportunities for continued research, and four remain unresolved.
+

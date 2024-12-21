@@ -1,0 +1,2 @@
+In computer science, robustness is the ability of a computer system to cope with errors during execution and cope with erroneous input. Robustness can encompass many areas of computer science, such as robust programming, robust machine learning, and Robust Security Network. Formal techniques, such as fuzz testing, are essential to showing robustness since this type of testing involves invalid or unexpected inputs. Alternatively, fault injection can be used to test robustness. Various commercial products perform robustness testing of software analysis.
+

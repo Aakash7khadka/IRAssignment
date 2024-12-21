@@ -1,0 +1,71 @@
+In physics, a parity transformation (also called parity inversion) is the flip in the sign of one spatial coordinate. In three dimensions, it can also refer to the simultaneous flip in the sign of all three spatial coordinates (a point reflection):
+
+  
+    
+      
+        
+          P
+        
+        :
+        
+          
+            (
+            
+              
+                
+                  x
+                
+              
+              
+                
+                  y
+                
+              
+              
+                
+                  z
+                
+              
+            
+            )
+          
+        
+        ↦
+        
+          
+            (
+            
+              
+                
+                  −
+                  x
+                
+              
+              
+                
+                  −
+                  y
+                
+              
+              
+                
+                  −
+                  z
+                
+              
+            
+            )
+          
+        
+        .
+      
+    
+    {\displaystyle \mathbf {P} :{\begin{pmatrix}x\\y\\z\end{pmatrix}}\mapsto {\begin{pmatrix}-x\\-y\\-z\end{pmatrix}}.}
+  
+
+It can also be thought of as a test for chirality of a physical phenomenon, in that a parity inversion transforms a phenomenon into its mirror image.
+All fundamental interactions of elementary particles, with the exception of the weak interaction, are symmetric under parity. As established by the Wu experiment conducted at the US National Bureau of Standards by Chinese-American scientist Chien-Shiung Wu, the weak interaction is chiral and thus provides a means for probing chirality in physics. In her experiment, Wu took advantage of the controlling role of weak interactions in radioactive decay of atomic isotopes to establish the chirality of the weak force. 
+By contrast, in interactions that are symmetric under parity, such as electromagnetism in atomic and molecular physics, parity serves as a powerful controlling principle underlying quantum transitions.
+A matrix representation of P (in any number of dimensions) has determinant equal to −1, and hence is distinct from a rotation, which has a determinant equal to 1. In a two-dimensional plane, a simultaneous flip of all coordinates in sign is not a parity transformation; it is the same as a 180° rotation.
+In quantum mechanics, wave functions that are unchanged by a parity transformation are described as even functions, while those that change sign under a parity transformation are odd functions.
+

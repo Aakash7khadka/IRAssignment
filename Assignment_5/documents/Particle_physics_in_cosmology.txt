@@ -1,0 +1,27 @@
+Particle physics is the study of the interactions of elementary particles at high energies, whilst physical cosmology studies the universe as a single physical entity. The interface between these two fields is sometimes referred to as particle cosmology. Particle physics must be taken into account in cosmological models of the early universe, when the average energy density was very high. The processes of particle pair production, scattering and decay influence the cosmology.
+As a rough approximation, a particle scattering or decay process is important at a particular cosmological epoch if its time scale is shorter than or similar to the time scale of the universe's expansion. The latter quantity is 
+  
+    
+      
+        
+          
+            1
+            H
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{H}}}
+  
+ where 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ is the time-dependent Hubble parameter. This is roughly equal to the age of the universe at that time.
+For example, the pion has a mean lifetime to decay of about 26 nanoseconds. This means that particle physics processes involving pion decay can be neglected until roughly that much time has passed since the Big Bang.
+Cosmological observations of phenomena such as the cosmic microwave background and the cosmic abundance of elements, together with the predictions of the Standard Model of particle physics, place constraints on the physical conditions in the early universe. The success of the Standard Model at explaining these observations support its validity under conditions beyond those which can be produced in a laboratory. Conversely, phenomena discovered through cosmological observations, such as dark matter and baryon asymmetry, suggest the presence of physics that goes beyond the Standard Model.

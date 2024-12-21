@@ -1,0 +1,3 @@
+Computational particle physics refers to the methods and computing tools developed in and used by  particle physics research. Like computational chemistry or computational biology, it is, for particle physics both a specific branch and an interdisciplinary field relying on computer science, theoretical and experimental particle physics and mathematics.
+The main fields of computational particle physics are: lattice field theory (numerical computations), automatic calculation of particle interaction or decay (computer algebra) and event generators (stochastic methods).
+

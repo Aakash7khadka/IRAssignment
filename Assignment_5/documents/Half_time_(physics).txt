@@ -1,0 +1,40 @@
+Half time is the time taken by a quantity to reach one half of its extremal value, where the rate of change is proportional to the difference between the present value and the extremal value (i.e. in exponential decay processes). It is synonymous with half-life, but used in slightly different contexts.
+The diagram shows the increase in the quantity (red) in response to a step-change in the motive force that changes it (blue). The time-axis is in multiples of the half time. It can be seen that the quantity increases to one-half of its final value after one half time, to three-quarters after two half times, to seven-eighths after three half times, and so on.
+The relationship between the quantity (Q) and time (t) is described by the mathematical formula:
+
+  
+    
+      
+        Q
+        (
+        t
+        )
+        =
+        
+          Q
+          
+            
+              f
+            
+          
+        
+        (
+        1
+        −
+        
+          e
+          
+            −
+            λ
+            t
+          
+        
+        )
+      
+    
+    {\displaystyle Q(t)=Q_{\mathrm {f} }(1-e^{-\lambda t})}
+  
+
+where Qf is the extremal value and λ is a constant, approximately equal to 0.69 divided by the half time – more precisely: loge(2) / (half time).
+Where the quantity decreases in response to a step-decrease in the motive force that changes it, the curve is mirrored in the time-axis and may be referred to as exponential decay.
+The concept of half time is used in diving physiology where body tissues take up and release inert gases (usually nitrogen) following changes in depth. Different tissue types have different half times for a given inert gas, and modelling the uptake and release of gases by the tissues is important to avoid decompression sickness.

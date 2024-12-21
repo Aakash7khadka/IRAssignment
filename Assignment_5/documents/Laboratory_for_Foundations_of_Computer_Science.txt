@@ -1,0 +1,1 @@
+The Laboratory for Foundations of Computer Science (LFCS) is a research institute within the School of Informatics at the University of Edinburgh, in Scotland.  It was founded in 1987 and is a community of theoretical computer scientists with interests in concurrency, semantics, categories, algebra, types, logic, algorithms, complexity, databases and modelling.

@@ -1,0 +1,2 @@
+In physics, helicity is the projection of the spin onto the direction of momentum.
+Mathematically, helicity is the sign of the projection of the spin vector onto the momentum vector: "left" is negative, "right" is positive.

@@ -1,0 +1,298 @@
+A production or production rule in computer science is a rewrite rule specifying a symbol substitution that can be recursively performed to generate new symbol sequences.  A finite set of productions 
+  
+    
+      
+        P
+      
+    
+    {\displaystyle P}
+  
+ is the main component in the specification of a formal grammar (specifically a generative grammar). The other components are a finite set 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ of nonterminal symbols, a finite set (known as an alphabet) 
+  
+    
+      
+        Σ
+      
+    
+    {\displaystyle \Sigma }
+  
+ of terminal symbols that is disjoint from 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ and a distinguished symbol 
+  
+    
+      
+        S
+        ∈
+        N
+      
+    
+    {\displaystyle S\in N}
+  
+ that is the start symbol.
+In an unrestricted grammar, a production is of the form 
+  
+    
+      
+        u
+        →
+        v
+      
+    
+    {\displaystyle u\to v}
+  
+, where 
+  
+    
+      
+        u
+      
+    
+    {\displaystyle u}
+  
+ and 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ are arbitrary strings of terminals and nonterminals, and 
+  
+    
+      
+        u
+      
+    
+    {\displaystyle u}
+  
+ may not be the empty string. If 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ is the empty string, this is denoted by the symbol 
+  
+    
+      
+        ϵ
+      
+    
+    {\displaystyle \epsilon }
+  
+, or 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  
+ (rather than leaving the right-hand side blank). So productions are members of the cartesian product
+
+  
+    
+      
+        
+          V
+          
+            ∗
+          
+        
+        N
+        
+          V
+          
+            ∗
+          
+        
+        ×
+        
+          V
+          
+            ∗
+          
+        
+        =
+        (
+        
+          V
+          
+            ∗
+          
+        
+        ∖
+        
+          Σ
+          
+            ∗
+          
+        
+        )
+        ×
+        
+          V
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle V^{*}NV^{*}\times V^{*}=(V^{*}\setminus \Sigma ^{*})\times V^{*}}
+  
+,
+where 
+  
+    
+      
+        V
+        :=
+        N
+        ∪
+        Σ
+      
+    
+    {\displaystyle V:=N\cup \Sigma }
+  
+ is the vocabulary, 
+  
+    
+      
+        
+          
+
+          
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle {}^{*}}
+  
+ is the Kleene star operator, 
+  
+    
+      
+        
+          V
+          
+            ∗
+          
+        
+        N
+        
+          V
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle V^{*}NV^{*}}
+  
+ indicates concatenation, 
+  
+    
+      
+        ∪
+      
+    
+    {\displaystyle \cup }
+  
+ denotes set union, and 
+  
+    
+      
+        ∖
+      
+    
+    {\displaystyle \setminus }
+  
+ denotes set minus or set difference. If we do not allow the start symbol to occur in 
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ (the word on the right side), we have to replace 
+  
+    
+      
+        
+          V
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle V^{*}}
+  
+ by 
+  
+    
+      
+        (
+        V
+        ∖
+        {
+        S
+        }
+        
+          )
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle (V\setminus \{S\})^{*}}
+  
+ on the right side of the cartesian product symbol.
+The other types of formal grammar in the Chomsky hierarchy impose additional restrictions on what constitutes a production. Notably in a context-free grammar, the left-hand side of a production must be a single nonterminal symbol. So productions are of the form:
+
+  
+    
+      
+        N
+        →
+        (
+        N
+        ∪
+        Σ
+        
+          )
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle N\to (N\cup \Sigma )^{*}}

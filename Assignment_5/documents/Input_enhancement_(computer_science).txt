@@ -1,0 +1,2 @@
+In computer science, input enhancement is the principle that processing a given input to a problem and altering it in a specific way will increase runtime efficiency or space efficiency, or both. The altered input is usually stored and accessed to simplify the problem. By exploiting the structure and properties of the inputs, input enhancement  creates various speed-ups in the efficiency of the algorithm.
+

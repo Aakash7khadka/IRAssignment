@@ -1,0 +1,2 @@
+In the physical sciences, relaxation usually means the return of a perturbed system into equilibrium.
+Each relaxation process can be categorized by a relaxation time τ. The simplest theoretical description of relaxation as function of time t is an exponential law exp(−t/τ) (exponential decay).

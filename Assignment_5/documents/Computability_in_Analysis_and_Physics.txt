@@ -1,0 +1,1 @@
+Computability in Analysis and Physics is a monograph on computable analysis by Marian Pour-El and J. Ian Richards. It was published by Springer-Verlag in their Perspectives in Mathematical Logic series in 1989, and reprinted by the Association for Symbolic Logic and Cambridge University Press in their Perspectives in Logic series in 2016.

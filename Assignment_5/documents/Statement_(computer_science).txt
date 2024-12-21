@@ -1,0 +1,4 @@
+In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g. expressions).
+Many programming languages (e.g. Ada, Algol 60, C, Java, Pascal) make a distinction between statements and definitions/declarations. A definition or declaration specifies the data on which a program is to operate, while a statement specifies the actions to be taken with that data.
+Statements which cannot contain other statements are simple; those which can contain other statements are compound.
+The appearance of a statement (and indeed a program) is determined by its syntax or grammar. The meaning of a statement is determined by its semantics.

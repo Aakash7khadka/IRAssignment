@@ -1,0 +1,258 @@
+The Euler number (Eu) is a dimensionless number used in fluid flow calculations. It expresses the relationship between a local pressure drop caused by a restriction and the kinetic energy per volume of the flow, and is used to characterize energy losses in the flow, where a perfect frictionless flow corresponds to an Euler number of 0.  The inverse of the Euler number is referred to as the Ruark Number with the symbol Ru.
+The Euler number is defined as
+
+  
+    
+      
+        
+          E
+          u
+        
+        =
+        
+          
+            
+              
+                pressure forces
+              
+              
+                inertial forces
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                (pressure)(area)
+              
+              
+                (mass)(acceleration)
+              
+            
+          
+        
+        =
+        
+          
+            
+              (
+              
+                p
+                
+                  u
+                
+              
+              −
+              
+                p
+                
+                  d
+                
+              
+              )
+              
+              
+                L
+                
+                  2
+                
+              
+            
+            
+              (
+              ρ
+              
+                L
+                
+                  3
+                
+              
+              )
+              (
+              
+                v
+                
+                  2
+                
+              
+              
+                /
+              
+              L
+              )
+            
+          
+        
+        =
+        
+          
+            
+              
+                p
+                
+                  u
+                
+              
+              −
+              
+                p
+                
+                  d
+                
+              
+            
+            
+              ρ
+              
+                v
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {Eu} ={\dfrac {\mbox{pressure forces}}{\mbox{inertial forces}}}={\dfrac {\mbox{(pressure)(area)}}{\mbox{(mass)(acceleration)}}}={\frac {(p_{u}-p_{d})\,L^{2}}{(\rho L^{3})(v^{2}/L)}}={\frac {p_{u}-p_{d}}{\rho v^{2}}}}
+  
+
+where
+
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+  
+ is the density of the fluid.
+
+  
+    
+      
+        
+          p
+          
+            u
+          
+        
+      
+    
+    {\displaystyle p_{u}}
+  
+ is the upstream pressure.
+
+  
+    
+      
+        
+          p
+          
+            d
+          
+        
+      
+    
+    {\displaystyle p_{d}}
+  
+ is the downstream pressure.
+
+  
+    
+      
+        v
+      
+    
+    {\displaystyle v}
+  
+ is a characteristic velocity of the flow.
+An alternative definition of the Euler number is given by Shah and Sekulic
+
+  
+    
+      
+        
+          E
+          u
+        
+        =
+        
+          
+            
+              
+                pressure drop
+              
+              
+                dynamic head
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                Δ
+                p
+              
+              
+                ρ
+                
+                  v
+                  
+                    2
+                  
+                
+                
+                  /
+                
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle \mathrm {Eu} ={\dfrac {\mbox{pressure drop}}{\mbox{dynamic head}}}={\dfrac {\Delta p}{\rho v^{2}/2}}}
+  
+
+where
+
+  
+    
+      
+        Δ
+        p
+      
+    
+    {\displaystyle \Delta p}
+  
+ is the pressure drop 
+  
+    
+      
+        =
+        
+          p
+          
+            u
+          
+        
+        −
+        
+          p
+          
+            d
+          
+        
+      
+    
+    {\displaystyle =p_{u}-p_{d}}
+  
+

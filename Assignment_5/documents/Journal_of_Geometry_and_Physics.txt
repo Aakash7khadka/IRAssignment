@@ -1,0 +1,30 @@
+The Journal of Geometry and Physics is a scientific journal in mathematical physics. Its scope is to stimulate the interaction between geometry and physics by publishing primary research and review articles which are of common interest to practitioners in both fields. The journal is published by Elsevier since 1984.
+The Journal covers the following areas of research:
+Methods of:
+
+Algebraic and Differential Topology
+Algebraic Geometry
+Real and Complex Differential Geometry
+Riemannian and Finsler Manifolds
+Symplectic Geometry
+Global Analysis, Analysis on Manifolds
+Geometric Theory of Differential Equations
+Geometric Control Theory
+Lie Groups and Lie Algebras
+Supermanifolds and Supergroups
+Discrete Geometry
+Spinors and Twistors
+Applications to:
+
+Strings and Superstrings
+Noncommutative Topology and Geometry
+Quantum Groups
+Geometric Methods in Statistics and Probability
+Geometry Approaches to Thermodynamics
+Classical and Quantum Dynamical Systems
+Classical and Quantum Integrable Systems
+Classical and Quantum Mechanics
+Classical and Quantum Field Theory
+General Relativity
+Quantum Information
+Quantum Gravity

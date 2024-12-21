@@ -1,0 +1,11 @@
+Limit load is the maximum load that a structure can safely carry. It's the load at which the structure is in a state of incipient plastic collapse. As the load on the structure increases, the displacements increases linearly in the elastic range until the load attains the yield value. Beyond this, the load-displacement response becomes non-linear and the plastic or irreversible part of the displacement increases steadily with the applied load. Plasticity spreads throughout the solid and at the limit load, the plastic zone becomes very large and the displacements become unbounded and the component is said to have collapsed.
+Any load above the limit load will lead to the formation of plastic hinge in the structure. Engineers use limit states to define and check a structure's performance.
+Bounding Theorems of Plastic-Limit Load Analysis:
+Plastic limit theorems provide a way to calculate limit loads without having to solve the boundary value problem in continuum mechanics. Finite element analysis provides an alternative way to estimate limit loads. They are:
+
+The Upper Bound Plastic Collapse Theorem
+The Lower Bound Plastic Collapse Theorem
+The Lower Bound Shakedown Theorem
+The Upper Bound Shakedown Theorem
+The Upper Bound Plastic Collapse Theorem states that an upper bound to the collapse loads can be obtained by postulating a collapse mechanism and computing the ratio of its plastic dissipation to the work done by the applied loads.
+

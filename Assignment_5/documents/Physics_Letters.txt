@@ -1,0 +1,5 @@
+Physics Letters was a scientific journal published from 1962 to 1966, when it split in two series now published by Elsevier:
+
+Physics Letters A: condensed matter physics, theoretical physics, nonlinear science, statistical physics, mathematical and computational physics, general and cross-disciplinary physics (including foundations), atomic, molecular and cluster physics, plasma and fluid physics, optical physics, biological physics and nanoscience.
+Physics Letters B: nuclear physics, theoretical nuclear physics, experimental high-energy physics, theoretical high-energy physics, and astrophysics.
+Physics Letters B is part of the SCOAP3 initiative.

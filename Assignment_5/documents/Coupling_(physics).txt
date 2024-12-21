@@ -1,0 +1,2 @@
+In physics, two objects are said to be coupled when they are interacting with each other. In classical mechanics, coupling is a connection between two oscillating systems, such as pendulums connected by a spring. The connection affects the oscillatory pattern of both objects. In particle physics, two particles are coupled if they are connected by one of the four fundamental forces.
+

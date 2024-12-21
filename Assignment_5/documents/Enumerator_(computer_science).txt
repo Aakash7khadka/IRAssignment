@@ -1,0 +1,2 @@
+An enumerator is a Turing machine equipped with an attached printer. the first sentence to avoid redundancy. Every time the Turing machine wants to add a string to the list, it sends the string to the printer. Enumerator is a type of Turing machine variant and is equivalent with Turing machine.
+

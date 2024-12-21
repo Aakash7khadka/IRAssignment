@@ -1,0 +1,221 @@
+In thermodynamics a residual property is defined as the difference between a real fluid property and an ideal gas property, both considered at the same density, temperature, and composition, typically expressed as
+
+  
+    
+      
+        X
+        (
+        T
+        ,
+        V
+        ,
+        n
+        )
+        =
+        
+          X
+          
+            i
+            d
+          
+        
+        (
+        T
+        ,
+        V
+        ,
+        n
+        )
+        +
+        
+          X
+          
+            r
+            e
+            s
+          
+        
+        (
+        T
+        ,
+        V
+        ,
+        n
+        )
+      
+    
+    {\displaystyle X(T,V,n)=X^{id}(T,V,n)+X^{res}(T,V,n)}
+  
+
+where 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is some thermodynamic property at given temperature, volume and mole numbers, 
+  
+    
+      
+        
+          X
+          
+            i
+            d
+          
+        
+      
+    
+    {\displaystyle X^{id}}
+  
+ is value of the property for an ideal gas, and 
+  
+    
+      
+        
+          X
+          
+            r
+            e
+            s
+          
+        
+      
+    
+    {\displaystyle X^{res}}
+  
+ is the residual property. The reference state is typically incorporated into the ideal gas contribution to the value, as
+
+  
+    
+      
+        
+          X
+          
+            i
+            d
+          
+        
+        (
+        T
+        ,
+        V
+        ,
+        n
+        )
+        =
+        
+          X
+          
+            ∘
+            ,
+            i
+            d
+          
+        
+        (
+        T
+        ,
+        n
+        )
+        +
+        
+          Δ
+          
+            i
+            d
+          
+        
+        X
+        (
+        T
+        ,
+        V
+        ,
+        n
+        )
+      
+    
+    {\displaystyle X^{id}(T,V,n)=X^{\circ ,id}(T,n)+\Delta _{id}X(T,V,n)}
+  
+
+where 
+  
+    
+      
+        
+          X
+          
+            ∘
+            ,
+            i
+            d
+          
+        
+      
+    
+    {\displaystyle X^{\circ ,id}}
+  
+ is the value of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ at the reference state (commonly pure, ideal gas species at 1 bar), and 
+  
+    
+      
+        
+          Δ
+          
+            i
+            d
+          
+        
+        X
+      
+    
+    {\displaystyle \Delta _{id}X}
+  
+ is the departure of the property for an ideal gas at 
+  
+    
+      
+        (
+        T
+        ,
+        V
+        ,
+        n
+        )
+      
+    
+    {\displaystyle (T,V,n)}
+  
+ from this reference state.
+Residual properties should not be confused with excess properties, which are defined as the deviation of a thermodynamic property from some reference system, that is typically not an ideal gas system. Whereas excess properties and excess models (also known as activity coefficient models) typically concern themselves with strictly liquid-phase systems, such as smelts, polymer blends or electrolytes, residual properties are intimately linked to equations of state which are commonly used to model systems in which vapour-liquid equilibria are prevalent, or systems where both gases and liquids are of interest. For some applications, activity coefficient models and equations of state are combined in what are known as "
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+  
+-
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+  
+ models" (read: Gamma-Phi) referring to the symbols commonly used to denote activity coefficients and fugacities.

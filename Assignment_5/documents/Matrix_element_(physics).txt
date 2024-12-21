@@ -1,0 +1,161 @@
+In physics, particularly in quantum perturbation theory, the matrix element refers to the linear operator of a modified Hamiltonian using Dirac notation. It is in fact referring to the matrix elements of a Hamiltonian operator which serves the purpose of calculating transition probabilities between different quantum states.
+The matrix element considers the effect of the newly modified Hamiltonian (i.e. the linear superposition of the unperturbed Hamiltonian plus interaction potential) on the quantum state.
+Matrix elements are important in atomic, nuclear and particle physics.
+In simple terms, we say that a Hamiltonian or some other operator/observable will cause a transition from an initial quantum state 
+  
+    
+      
+        
+          |
+        
+        i
+        ⟩
+      
+    
+    {\displaystyle |i\rangle }
+  
+ to a final quantum state 
+  
+    
+      
+        
+          |
+        
+        f
+        ⟩
+      
+    
+    {\displaystyle |f\rangle }
+  
+ if the following holds true:
+  
+    
+      
+        
+          
+            
+              
+                ⟨
+                f
+                
+                  |
+                
+                
+                  
+                    
+                      H
+                      ^
+                    
+                  
+                
+                
+                  |
+                
+                i
+                ⟩
+                =
+                
+                  M
+                  
+                    i
+                    ,
+                    f
+                  
+                
+                ≠
+                0
+              
+            
+            
+              
+                
+                  |
+                
+                ⟨
+                f
+                
+                  |
+                
+                
+                  
+                    
+                      H
+                      ^
+                    
+                  
+                
+                
+                  |
+                
+                i
+                ⟩
+                
+                  
+                    |
+                  
+                  
+                    2
+                  
+                
+                =
+                
+                  |
+                
+                
+                  M
+                  
+                    i
+                    ,
+                    f
+                  
+                
+                
+                  
+                    |
+                  
+                  
+                    2
+                  
+                
+                ,
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\langle f|{\hat {H}}|i\rangle =M^{i,f}\neq 0\\|\langle f|{\hat {H}}|i\rangle |^{2}=|M^{i,f}|^{2},\end{aligned}}}
+  
+where the last line is the probability amplitude of transition caused by some operator 
+  
+    
+      
+        
+          
+            
+              H
+              ^
+            
+          
+        
+      
+    
+    {\displaystyle {\hat {H}}}
+  
+ and the matrix element 
+  
+    
+      
+        
+          M
+          
+            i
+            ,
+            f
+          
+        
+      
+    
+    {\displaystyle M^{i,f}}
+  
+ encapsulating this information. In effect, the calculation involves finding the matrix elements of the H-operator which gives this information of transition between two states. Examples of this can be seen in nuclear physics such as in the beta decay transition, neutrinoless double beta decay and double beta decay.

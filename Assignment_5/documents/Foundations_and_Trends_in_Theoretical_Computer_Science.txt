@@ -1,0 +1,1 @@
+Foundations and Trends in Theoretical Computer Science is a peer-reviewed scientific journal that publishes long survey and tutorial articles in the field of theoretical computer science. It was established in 2005 and is published by Now Publishers. The founding editor-in-chief is Madhu Sudan (Microsoft Research).

@@ -1,0 +1,2 @@
+In mathematics, secondary calculus is a proposed expansion of classical differential calculus on manifolds, to the "space" of solutions of a (nonlinear) partial differential equation. It is a sophisticated theory at the level of jet spaces and employing algebraic methods.
+

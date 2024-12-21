@@ -1,0 +1,2 @@
+Abstractions are fundamental building blocks of computer science, enabling complex systems and ideas to be simplified into more manageable and relatable concepts.
+

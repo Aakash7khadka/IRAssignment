@@ -1,0 +1,25 @@
+The Helsinki Institute of Physics (HIP, Finnish: Fysiikan tutkimuslaitos, Swedish: Forskningsinstitutet för fysik) is a physics research institute operated jointly by University of Helsinki, Aalto University, University of Jyväskylä, Lappeenranta University of Technology and Tampere University of Technology. The operations of the institute began on September 1, 1996. The foundation of the institute was provided by the three previous Helsinki-based institutes: SEFT, TFT (University of Helsinki) and HTI (Helsinki University of Technology), which were merged into the new organization. The current director of the institute since 2017 has been prof. Katri Huitu. The institute is responsible for the Finnish research collaboration with CERN and Facility for Antiproton and Ion Research in Europe GmbH (FAIR).
+The research is currently focused on following fields:
+
+Theory Programme
+Nuclear Structure for Weak and Astrophysical Processes
+QCD and Strongly Interacting Gauge Theory
+Domain Wall Dynamics
+Cosmology of the Early and Late Universe
+High Energy Phenomenology in the LHC Era
+CMS Programme
+CMS Experiment
+CMS Upgrade
+Tier-2 Operations
+TOTEM
+Technology Programme
+Accelerator Technology
+Green Big Data Project
+Biomedical Imaging
+Novel Instrumentation for Nuclear Safety, Security and Safeguards
+Finnish Business Incubation Center of CERN Technologies
+Nuclear Matter Programme
+ALICE
+ISOLDE
+FAIR
+

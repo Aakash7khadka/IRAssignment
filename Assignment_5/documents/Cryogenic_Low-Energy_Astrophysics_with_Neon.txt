@@ -1,0 +1,1 @@
+The Cryogenic Low-Energy Astrophysics with Noble liquids (CLEAN) experiment by the DEAP/CLEAN collaboration is searching for dark matter using noble gases at the SNOLAB underground facility.  CLEAN has studied neon and argon in the MicroCLEAN prototype, and running the MiniCLEAN detector to test a multi-ton design.

@@ -1,0 +1,183 @@
+In geophysics, admittance is a term for a transfer function, that measures the response (can be amplitude, force) to the applied change (force, pressure) in function of variable of interest (frequency, wave number) applied to the physical body, such as the atmosphere or the Earth's crust. In seismology or geodesy it describes the effects of the body to applied forcing (tidal admittance ). 
+The admittance Q(k) can be also defined as the transfer function between the spectral representation of gravity G(k) and topography H(k):
+
+  
+    
+      
+        G
+        (
+        k
+        )
+        =
+        Q
+        (
+        k
+        )
+        ⋅
+        H
+        (
+        k
+        )
+        +
+        N
+        (
+        k
+        )
+      
+    
+    {\displaystyle G(k)=Q(k)\cdot H(k)+N(k)}
+  
+
+N(k) is the uncorrelated noise in the data (assumed to be small) and k is the two-dimensional wave number (
+  
+    
+      
+        2
+        π
+        
+          /
+        
+        λ
+      
+    
+    {\displaystyle 2\pi /\lambda }
+  
+)where l is the wavelength.
+Another application of admittance in geophysics takes atmospheric pressure as the input and measures changes in the gravitational field as the output. In such case admittance is measured in μGal/mbar.  These units convert according to  1 Gal = 0.01 m/s2 and 1 bar = 100 kPa, so in SI units the measurement would be in units of;
+
+  
+    
+      
+        
+          
+            
+              
+                m
+              
+              
+                /
+              
+              
+                
+                  s
+                
+                
+                  2
+                
+              
+            
+            
+              P
+              a
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {m} /\mathrm {s} ^{2}}{\mathrm {Pa} }}}
+  
+   or   
+  
+    
+      
+        
+          
+            
+              
+                m
+              
+              
+                /
+              
+              
+                
+                  s
+                
+                
+                  2
+                
+              
+            
+            
+              
+                N
+              
+              
+                /
+              
+              
+                
+                  m
+                
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {m} /\mathrm {s} ^{2}}{\mathrm {N} /\mathrm {m} ^{2}}}}
+  
+   or   
+  
+    
+      
+        
+          
+            
+              
+                m
+              
+              
+                3
+              
+            
+            
+              
+                N
+              
+              ⋅
+              
+                
+                  s
+                
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {m} ^{3}}{\mathrm {N} \cdot \mathrm {s} ^{2}}}}
+  
+   or, in primary units   
+  
+    
+      
+        
+          
+            
+              
+                m
+              
+              
+                2
+              
+            
+            
+              k
+              g
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\mathrm {m} ^{2}}{\mathrm {kg} }}}
+  
+
+However, the relationship is not a straightforward one of proportionality.  Rather, an admittance function is described which is time and frequency dependent in a complex way.
+

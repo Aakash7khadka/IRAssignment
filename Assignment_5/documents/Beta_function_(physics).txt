@@ -1,0 +1,52 @@
+In theoretical physics, specifically quantum field theory, a beta function, β(g), encodes the dependence of a coupling parameter, g, on the energy scale,  μ,  of a given physical process described by quantum field theory.
+It is defined as
+
+  
+    
+      
+        β
+        (
+        g
+        )
+        =
+        μ
+        
+          
+            
+              ∂
+              g
+            
+            
+              ∂
+              μ
+            
+          
+        
+        =
+        
+          
+            
+              ∂
+              g
+            
+            
+              ∂
+              ln
+              ⁡
+              (
+              μ
+              )
+            
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \beta (g)=\mu {\frac {\partial g}{\partial \mu }}={\frac {\partial g}{\partial \ln(\mu )}}~,}
+  
+
+and, because of the underlying  renormalization group, it has no explicit dependence on μ, so it only depends on μ implicitly through  g.
+This dependence on the energy scale thus specified is known as the running of the coupling parameter, a fundamental 
+feature of  scale-dependence in quantum field theory, and its explicit computation is achievable through a variety of mathematical techniques. The concept of Beta function was Introduced by Ernst Stueckelberg and André Petermann in 1953.
+

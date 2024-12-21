@@ -1,0 +1,5 @@
+HyperPhysics is an educational website about physics topics. 
+The information architecture of the website is based on HyperCard, the platform on which the material was originally developed, and a thesaurus organization, with thousands of controlled links and usual trees organizing topics from general to specific. It also exploits concept maps to facilitate smooth navigation. HyperPhysics is hosted by Georgia State University and authored by Georgia State faculty member Dr. Rod Nave.
+In the early 2000s, various teaching and education facilitators made use of HyperPhysics material through projects
+and organizations, and also publishers which use SciLinks.
+

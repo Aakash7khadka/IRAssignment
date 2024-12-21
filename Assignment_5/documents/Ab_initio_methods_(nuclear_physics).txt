@@ -1,0 +1,56 @@
+In nuclear physics, ab initio methods seek to describe the atomic nucleus from the bottom up by solving the non-relativistic Schrödinger equation for all constituent nucleons and the forces between them. This is done either exactly for very light nuclei (up to four nucleons) or by employing certain well-controlled approximations for heavier nuclei. Ab initio methods constitute a more fundamental approach compared to e.g. the nuclear shell model. Recent progress has enabled ab initio treatment of heavier nuclei such as nickel.
+A significant challenge in the ab initio treatment stems from the complexities of the inter-nucleon interaction. The strong nuclear force is believed to emerge from the strong interaction described by quantum chromodynamics (QCD), but QCD is non-perturbative in the low-energy regime relevant to nuclear physics. This makes the direct use of QCD for the description of the inter-nucleon interactions very difficult (see lattice QCD), and a model must be used instead. The most sophisticated models available are based on chiral effective field theory. This effective field theory (EFT) includes all interactions compatible with the symmetries of QCD, ordered by the size of their contributions. The degrees of freedom in this theory are nucleons and pions, as opposed to quarks and gluons as in QCD. The effective theory contains parameters called low-energy constants, which can be determined from scattering data.
+Chiral EFT implies the existence of many-body forces, most notably the three-nucleon interaction which is known to be an essential ingredient in the nuclear many-body problem.
+After arriving at a Hamiltonian 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ (based on chiral EFT or other models) one must solve the Schrödinger equation
+
+  
+    
+      
+        H
+        |
+        
+          Ψ
+        
+        ⟩
+        =
+        E
+        |
+        
+          Ψ
+        
+        ⟩
+        ,
+      
+    
+    {\displaystyle H\vert {\Psi }\rangle =E\vert {\Psi }\rangle ,}
+  
+
+where 
+  
+    
+      
+        |
+        
+          Ψ
+        
+        ⟩
+      
+    
+    {\displaystyle \vert {\Psi }\rangle }
+  
+ is the many-body wavefunction of the A nucleons in the nucleus. Various ab initio methods have been devised to numerically find solutions to this equation:
+
+Green's function Monte Carlo (GFMC)
+No-core shell model (NCSM)
+Coupled cluster (CC)
+Self-consistent Green's function (SCGF)
+In-medium similarity renormalization group (IM-SRG)

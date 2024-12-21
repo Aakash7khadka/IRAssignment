@@ -1,0 +1,1 @@
+Causality is the relationship between causes and effects. While causality is also a topic studied from the perspectives of philosophy and physics, it is operationalized so that causes of an event must be in the past light cone of the event and ultimately reducible to fundamental interactions. Similarly, a cause cannot have an effect outside its future light cone.

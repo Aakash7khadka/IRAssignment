@@ -1,0 +1,5 @@
+In quantum mechanics, the spectral gap of a system is the energy difference between its ground state and its first excited state. The mass gap is the spectral gap between the vacuum and the lightest particle.  A Hamiltonian with a spectral gap is called a gapped Hamiltonian, and those that do not are called gapless.
+In solid-state physics, the most important spectral gap is for the many-body system of electrons in a solid material, in which case it is often known as an energy gap.
+In quantum many-body systems, ground states of gapped Hamiltonians have exponential decay of correlations.
+In 2015, it was shown that the problem of determining the existence of a spectral gap is undecidable in two or more dimensions. The authors used an aperiodic tiling of quantum Turing machines and showed that this hypothetical material becomes gapped if and only if the machine halts. The one-dimensional case was also proven undecidable in 2020 by constructing a chain of interacting qudits divided into blocks that gain energy if and only if they represent a full computation by a Turing machine, and showing that this system becomes gapped if and only if the machine does not halt.
+

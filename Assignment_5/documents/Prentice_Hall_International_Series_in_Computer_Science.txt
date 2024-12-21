@@ -1,0 +1,2 @@
+Prentice Hall International Series in Computer Science was a series of books on computer science published by Prentice Hall.
+The series' founding editor was Tony Hoare. Richard Bird subsequently took over editing the series. Many of the books in the series have been in the area of formal methods in particular.

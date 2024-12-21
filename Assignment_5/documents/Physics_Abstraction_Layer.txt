@@ -1,0 +1,11 @@
+The Physics Abstraction Layer (PAL) is an open-source cross-platform physical simulation API abstraction system. It is similar to a physics engine wrapper, however it is far more flexible providing extended abilities. PAL is free software, released under the BSD license. 
+PAL is a high-level interface for low-level physics engines used in games, simulation systems, and other 3D applications. It supports a number of dynamic simulation methodologies, including rigid body, liquids, soft body, ragdoll, and vehicle dynamics. PAL features a simple C++ API and intuitive objects (e.g. Solids, Joints, Actuators, Sensors, and Materials). It also features COLLADA, Scythe Physics Editor, and XML-based file storage. 
+The Physics Abstraction Layer provides a number of benefits over directly using a physics engine:
+
+Flexibility – It allows developers to switch between different physics engines to see which engine provides their needs, as well as quickly testing a new engine.
+Portable – Developers are able to use the physics engine which provides the best performance for different platforms, and are able to write platform independent code.
+Security – If a middleware provider is acquired by another company or development is discontinued, developers can switch engines.
+Scalable – The abstraction layer allows developers to run their code on handheld console platforms up to supercomputers.
+Ease of use – Implementation details of the physics engine are abstracted, providing a cleaner interface to the developer.
+Benchmarking – Researchers can directly compare the performance of various dynamic simulations systems.
+PAL is designed with a pluggable abstract factory allowing code to be written and compiled once and allowing runtime selection of different physics engines, as well as feature upgrades.

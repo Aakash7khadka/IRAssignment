@@ -1,0 +1,3 @@
+Torch is an open-source machine learning library, 
+a scientific computing framework, and a scripting language based on Lua. It provides LuaJIT interfaces to deep learning algorithms implemented in C. It was created by the Idiap Research Institute at EPFL. Torch development moved in 2017 to PyTorch, a port of the library to Python.
+

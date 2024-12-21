@@ -1,0 +1,553 @@
+The Gausson  is a soliton which is the solution of the logarithmic Schrödinger equation, which describes a quantum particle in a possible nonlinear quantum mechanics. The logarithmic Schrödinger equation preserves
+the dimensional homogeneity of the equation, i.e. the product of the independent solutions in one dimension remain the solution in multiple dimensions.
+While the nonlinearity alone cannot cause the quantum entanglement between dimensions, the logarithmic Schrödinger equation can be solved by the separation of variables.
+Let the nonlinear Logarithmic Schrödinger equation in one dimension will be given by  (
+  
+    
+      
+        ℏ
+        =
+        1
+      
+    
+    {\displaystyle \hbar =1}
+  
+, unit mass 
+  
+    
+      
+        m
+        =
+        1
+      
+    
+    {\displaystyle m=1}
+  
+):
+
+  
+    
+      
+        i
+        
+          
+            
+              ∂
+              ψ
+            
+            
+              ∂
+              t
+            
+          
+        
+        =
+        −
+        
+          
+            1
+            2
+          
+        
+        
+          
+            
+              
+                ∂
+                
+                  2
+                
+              
+              ψ
+            
+            
+              ∂
+              
+                x
+                
+                  2
+                
+              
+            
+          
+        
+        −
+        a
+        ln
+        ⁡
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        ψ
+      
+    
+    {\displaystyle i{\partial \psi  \over \partial t}=-{\frac {1}{2}}{\frac {\partial ^{2}\psi }{\partial x^{2}}}-a\ln |\psi |^{2}\psi }
+  
+
+Let assume the  Galilean invariance i.e.
+
+  
+    
+      
+        
+          
+            
+            
+          
+        
+        ψ
+        (
+        x
+        ,
+        t
+        )
+        =
+        
+          e
+          
+            −
+            i
+            E
+            t
+          
+        
+        ψ
+        (
+        x
+        −
+        k
+        t
+        )
+      
+    
+    {\displaystyle {\frac {}{}}\psi (x,t)=e^{-iEt}\psi (x-kt)}
+  
+
+Substituting
+
+  
+    
+      
+        
+          
+            
+            
+          
+        
+        y
+        =
+        x
+        −
+        k
+        t
+      
+    
+    {\displaystyle {\frac {}{}}y=x-kt}
+  
+
+The first equation can be written as
+
+  
+    
+      
+        −
+        
+          
+            1
+            2
+          
+        
+        
+          
+            [
+            
+              
+                
+                  ∂
+                  
+                    ∂
+                    y
+                  
+                
+              
+              +
+              i
+              k
+            
+            ]
+          
+          
+            2
+          
+        
+        ψ
+        −
+        a
+        ln
+        ⁡
+        
+          |
+        
+        ψ
+        
+          
+            |
+          
+          
+            2
+          
+        
+        ψ
+        =
+        
+          (
+          
+            E
+            +
+            
+              
+                
+                  k
+                  
+                    2
+                  
+                
+                2
+              
+            
+          
+          )
+        
+        ψ
+      
+    
+    {\displaystyle -{\frac {1}{2}}\left[{{\frac {\partial }{\partial y}}+ik}\right]^{2}\psi -a\ln |\psi |^{2}\psi =\left(E+{\frac {k^{2}}{2}}\right)\psi }
+  
+
+Substituting additionally
+
+  
+    
+      
+        
+          
+            
+            
+          
+        
+        Ψ
+        (
+        y
+        )
+        =
+        
+          e
+          
+            −
+            i
+            k
+            y
+          
+        
+        ψ
+        (
+        y
+        )
+      
+    
+    {\displaystyle {\frac {}{}}\Psi (y)=e^{-iky}\psi (y)}
+  
+
+and assuming
+
+  
+    
+      
+        Ψ
+        (
+        y
+        )
+        =
+        N
+        
+          e
+          
+            −
+            ω
+            
+              y
+              
+                2
+              
+            
+            
+              /
+            
+            2
+          
+        
+      
+    
+    {\displaystyle \Psi (y)=Ne^{-\omega y^{2}/2}}
+  
+
+we get the normal Schrödinger equation for  the quantum harmonic oscillator:
+
+  
+    
+      
+        −
+        
+          
+            1
+            2
+          
+        
+        
+          
+            
+              
+                ∂
+                
+                  2
+                
+              
+              Ψ
+            
+            
+              ∂
+              
+                y
+                
+                  2
+                
+              
+            
+          
+        
+        +
+        a
+        ω
+        
+          y
+          
+            2
+          
+        
+        Ψ
+        =
+        
+          (
+          
+            E
+            +
+            
+              
+                
+                  k
+                  
+                    2
+                  
+                
+                2
+              
+            
+            +
+            
+              N
+              
+                2
+              
+            
+            a
+          
+          )
+        
+        Ψ
+      
+    
+    {\displaystyle -{\frac {1}{2}}{\frac {\partial ^{2}\Psi }{\partial y^{2}}}+a\omega y^{2}\Psi =\left(E+{\frac {k^{2}}{2}}+N^{2}a\right)\Psi }
+  
+
+The solution is therefore the normal ground state of the harmonic oscillator if only 
+  
+    
+      
+        (
+        a
+        >
+        0
+        )
+      
+    
+    {\displaystyle (a>0)}
+  
+
+  
+    
+      
+        
+          
+            
+            
+          
+        
+        a
+        ω
+        =
+        
+          ω
+          
+            2
+          
+        
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle {\frac {}{}}a\omega =\omega ^{2}/2}
+  
+
+or
+
+  
+    
+      
+        
+          
+            
+            
+          
+        
+        ω
+        =
+        2
+        a
+      
+    
+    {\displaystyle {\frac {}{}}\omega =2a}
+  
+
+The full solitonic solution is therefore given by
+
+  
+    
+      
+        
+          
+            
+            
+          
+        
+        ψ
+        (
+        x
+        ,
+        t
+        )
+        =
+        N
+        
+          e
+          
+            −
+            i
+            E
+            t
+          
+        
+        
+          e
+          
+            i
+            k
+            
+              (
+              x
+              −
+              k
+              t
+              )
+            
+          
+        
+        
+          e
+          
+            −
+            a
+            (
+            
+              x
+              −
+              k
+              t
+            
+            
+              )
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {}{}}\psi (x,t)=Ne^{-iEt}e^{ik{(x-kt)}}e^{-a({x-kt})^{2}}}
+  
+
+where
+
+  
+    
+      
+        
+          
+            
+            
+          
+        
+        E
+        =
+        a
+        (
+        1
+        −
+        
+          N
+          
+            2
+          
+        
+        )
+        −
+        
+          k
+          
+            2
+          
+        
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle {\frac {}{}}E=a(1-N^{2})-k^{2}/2}
+  
+
+This solution describes the soliton moving with the constant velocity  and not changing
+the shape (modulus) of the Gaussian function.  When a potential is added, not only can a single Gausson provide an exact solution to a number of cases of the Logarithmic Schrödinger equation, it has been found that a linear combination of Gaussons can very accurately approximate excited states as well.
+This superposition property of Gaussons has been demonstrated for quadratic
+potentials.

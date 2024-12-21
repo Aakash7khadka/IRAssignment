@@ -1,0 +1,4 @@
+Tropical convective clouds play an important part in the Earth's climate system. Convection and release of latent heat transports energy from the surface into the upper atmosphere. Clouds have a higher albedo than the underlying ocean, which causes more incoming solar radiation to be reflected back to space. Since the tops of tropical systems are much cooler than the surface of the Earth, the presence of high convective clouds cools the climate system.
+The most recognizable cloud system in the tropics is the hurricane. In addition to the important climatic effects of tropical weather systems, hurricanes possess enough energy to cause massive death and destruction. Therefore, their accurate prediction is of utmost importance.
+Cloud microphysics describe the structure and properties of clouds on the microscopic scale.
+

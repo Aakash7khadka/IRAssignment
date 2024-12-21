@@ -1,0 +1,1 @@
+Waffles is a collection of command-line tools for performing machine learning operations developed at Brigham Young University. These tools are written in C++, and are available under the GNU Lesser General Public License.

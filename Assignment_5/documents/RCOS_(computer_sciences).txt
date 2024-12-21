@@ -1,0 +1,1 @@
+rCOS  stands for refinement of  object and component systems. It is a formal method providing component-based model-driven software development.

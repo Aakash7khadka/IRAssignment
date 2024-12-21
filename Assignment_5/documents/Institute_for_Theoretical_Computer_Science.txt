@@ -1,0 +1,3 @@
+The Institute for Theoretical Computer Science (ITCS; Chinese: 清华大学理论计算机科学研究中心) is a scholastic research institute headed by Professor Andrew Yao at Tsinghua University in Beijing. In 2010, the institute became part of Tsinghua University's Institute for Interdisciplinary Information Sciences.
+The ITCS has hosted several academic events, including the tenth International Conference on Theory and Practice of Public-Key Cryptography (PKC) on April 16–20, 2007.
+

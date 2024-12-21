@@ -1,0 +1,2 @@
+In computer science, a computation is said to diverge if it does not terminate or terminates in an exceptional state.: 377  Otherwise it is said to converge. In domains where computations are expected to be infinite, such as process calculi, a computation is said to diverge if it fails to be productive (i.e. to continue producing an action within a finite amount of time).
+

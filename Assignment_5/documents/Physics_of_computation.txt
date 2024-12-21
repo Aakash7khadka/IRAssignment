@@ -1,0 +1,2 @@
+The study of the physics of computation relates to understanding the fundamental physical limits of computers. This field has led to the investigation of how thermodynamics limits information processing, the understanding of chaos and dynamical systems, and a rapidly growing effort to invent new quantum computers.
+See also important publications in physics of computation

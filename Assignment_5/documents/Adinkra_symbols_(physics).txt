@@ -1,0 +1,2 @@
+In supergravity and supersymmetric representation theory, Adinkra symbols are a graphical representation of supersymmetric algebras. Mathematically they can be described as colored finite connected  simple graphs, that are bipartite and n-regular. Their name is derived from Adinkra symbols of the same name, and they were introduced by Michael Faux and Sylvester James Gates in 2004.  
+

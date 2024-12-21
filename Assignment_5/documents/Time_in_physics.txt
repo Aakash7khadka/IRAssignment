@@ -1,0 +1,10 @@
+In physics, time is defined by its measurement: time is what a clock reads.  In classical, non-relativistic physics, it is a scalar quantity (often denoted by the symbol 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  
+) and, like length, mass, and charge, is usually described as a fundamental quantity. Time can be combined mathematically with other physical quantities to derive other concepts such as motion, kinetic energy and time-dependent fields.  Timekeeping is a complex of technological and scientific issues, and part of the foundation of recordkeeping.

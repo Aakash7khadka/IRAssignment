@@ -1,0 +1,2 @@
+The term evolvability is used for a recent framework of computational learning introduced by Leslie Valiant in his paper of the same name and described below. The aim of this theory is to model biological evolution and categorize which types of mechanisms are evolvable. Evolution is an extension of PAC learning and learning from statistical queries.
+

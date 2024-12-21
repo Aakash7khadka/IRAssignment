@@ -1,0 +1,228 @@
+Optical depth in astrophysics refers to a specific level of transparency. Optical depth and actual depth, 
+  
+    
+      
+        τ
+      
+    
+    {\displaystyle \tau }
+  
+ and 
+  
+    
+      
+        z
+      
+    
+    {\displaystyle z}
+  
+ respectively, can vary widely depending on the absorptivity of the astrophysical environment. Indeed, 
+  
+    
+      
+        τ
+      
+    
+    {\displaystyle \tau }
+  
+ is able to show the relationship between these two quantities and can lead to a greater understanding of the structure inside a star.
+Optical depth is a measure of the extinction coefficient or absorptivity up to a specific 'depth' of a star's makeup.
+
+  
+    
+      
+        τ
+        ≡
+        
+          ∫
+          
+            0
+          
+          
+            z
+          
+        
+        α
+        d
+        z
+        =
+        σ
+        N
+        .
+      
+    
+    {\displaystyle \tau \equiv \int _{0}^{z}\alpha dz=\sigma N.}
+  
+ 
+The assumption here is that either the extinction coefficient 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ or the column number density 
+  
+    
+      
+        N
+      
+    
+    {\displaystyle N}
+  
+ is known. These can generally be calculated from other equations if a fair amount of information is known about the chemical makeup of the star. From the definition, it is also clear that large optical depths correspond to higher rate of obscuration. Optical depth can therefore be thought of as the opacity of a medium. 
+The extinction coefficient 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ can be calculated using the transfer equation. In most astrophysical problems, this is exceptionally difficult to solve since solving the corresponding equations requires the incident radiation as well as the radiation leaving the star. These values are usually theoretical.
+In some cases the Beer–Lambert law can be useful in finding 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+.
+
+  
+    
+      
+        α
+        =
+        
+          e
+          
+            4
+            π
+            κ
+            
+              /
+            
+            
+              λ
+              
+                0
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \alpha =e^{4\pi \kappa /\lambda _{0}},}
+  
+
+where 
+  
+    
+      
+        κ
+      
+    
+    {\displaystyle \kappa }
+  
+ is the refractive index, and 
+  
+    
+      
+        
+          λ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \lambda _{0}}
+  
+ is the wavelength of the incident light before being absorbed or scattered. The Beer–Lambert law is only appropriate when the absorption occurs at a specific wavelength, 
+  
+    
+      
+        
+          λ
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \lambda _{0}}
+  
+. For a gray atmosphere, for instance, it is most appropriate to use the Eddington Approximation.
+Therefore, 
+  
+    
+      
+        τ
+      
+    
+    {\displaystyle \tau }
+  
+ is simply a constant that depends on the physical distance from the outside of a star. To find 
+  
+    
+      
+        τ
+      
+    
+    {\displaystyle \tau }
+  
+ at a particular depth 
+  
+    
+      
+        
+          z
+          ′
+        
+      
+    
+    {\displaystyle z'}
+  
+, the above equation may be used with 
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  
+ and integration from 
+  
+    
+      
+        z
+        =
+        0
+      
+    
+    {\displaystyle z=0}
+  
+ to 
+  
+    
+      
+        z
+        =
+        
+          z
+          ′
+        
+      
+    
+    {\displaystyle z=z'}
+  
+.
+

@@ -1,0 +1,1 @@
+In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. Regardless of which programming language is used, a guard clause, guard code, or guard statement is a check of integrity preconditions used to avoid errors during execution.

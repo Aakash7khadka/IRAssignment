@@ -1,0 +1,1 @@
+This is a list of common physical constants and variables, and their notations. Note that bold text indicates that the quantity is a vector.

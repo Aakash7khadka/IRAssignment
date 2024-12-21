@@ -1,0 +1,6 @@
+Clinical biophysics is that branch of medical science that studies the action process and the effects of non-ionising physical energies utilised for therapeutic purposes. 
+Physical energy can be applied for diagnostic or therapeutic aims.
+The principle on which clinical biophysics is based are represented by the recognizability and the specificity of the physical signal applied:
+
+recognizability: the capacity of the biological target to recognise the presence of the physical energy: this aspect becomes more important with the lowering of the energy applied.
+specificity: the capacity of the physical agent applied to the biological target to obtain a response depending on its physical characteristics: frequency, length, energy, etc. The effects do not necessarily depend on the quantity of energy applied to the biological target.

@@ -1,0 +1,13 @@
+Technicolor theories are models of physics beyond the Standard Model that address electroweak gauge symmetry breaking, the mechanism through which W and Z bosons acquire masses.  Early technicolor theories were modelled on quantum chromodynamics (QCD), the "color" theory of the strong nuclear force, which inspired their name.
+Instead of introducing elementary Higgs bosons to explain observed phenomena, technicolor models were introduced to dynamically generate masses for the W and Z bosons through new gauge interactions.  Although asymptotically free at very high energies, these interactions must become strong and confining (and hence unobservable) at lower energies that have been experimentally probed. This dynamical approach is natural and avoids issues of quantum triviality and the hierarchy problem of the Standard Model.   
+However, since the Higgs boson discovery at the 
+CERN LHC in 2012, the original models are largely ruled out. Nonetheless, it remains a possibility that the Higgs boson is a composite state.
+In order to produce quark and lepton masses, technicolor or composite Higgs models have to be "extended" by additional gauge interactions. Particularly when modelled on QCD, extended technicolor was challenged by experimental constraints on flavor-changing neutral current and precision electroweak measurements. The specific extensions of particle dynamics for technicolor 
+or composite Higgs bosons are unknown.
+Much technicolor research focuses on exploring strongly interacting gauge theories other than QCD, in order to evade some of these challenges. A particularly active framework is "walking" technicolor, which exhibits nearly conformal behavior caused by an infrared fixed point with strength just above that necessary for spontaneous chiral symmetry breaking. Whether walking can occur and lead to agreement with precision electroweak measurements is being studied through non-perturbative lattice simulations.
+Experiments at the Large Hadron Collider have discovered the mechanism responsible for electroweak symmetry breaking, i.e., the Higgs boson, with mass approximately 125 GeV/c2; such a particle is not generically predicted by technicolor models. However,
+the Higgs boson may be a composite state, e.g., built of top and anti-top quarks
+as in the Bardeen–Hill–Lindner theory.
+Composite Higgs models are generally solved by the top quark infrared fixed point,
+and may require a new dynamics at extremely high energies such as topcolor.
+

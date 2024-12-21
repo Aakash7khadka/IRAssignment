@@ -1,0 +1,5 @@
+Concurrency refers to the ability of a system to execute multiple tasks through simultaneous execution or time-sharing (context switching), sharing resources and managing interactions. Concurrency improves responsiveness, throughput, and scalability in modern computing, including: 
+
+Operating systems and embedded systems
+Distributed systems, parallel computing, and high-performance computing
+Database systems, web applications, and cloud computing

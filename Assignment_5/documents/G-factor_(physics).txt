@@ -1,0 +1,2 @@
+A g-factor (also called g value) is a dimensionless quantity that characterizes the magnetic moment and angular momentum of an atom, a particle or the nucleus. It is the ratio of the magnetic moment (or, equivalently, the gyromagnetic ratio) of a particle to that expected of a classical particle of the same charge and angular momentum.  In nuclear physics, the nuclear magneton replaces the classically expected magnetic moment (or gyromagnetic ratio) in the definition.  The two definitions coincide for the proton.
+

@@ -31,11 +31,11 @@ def fetch_and_write(topic):
             with open(directory ,"w", encoding='utf-8') as write_file:
                 write_file.write(text_page['extract'])
 
-            print(f"Response  writing to {file_name}")
-        else:
-            print(f"Failed to fetch api: {text_response.status_code}")
+            # print(f"Response  writing to {file_name}")
+
     except Exception as e:
-        print(f"Error fetching api: {e}")
+        pass
+        # print(f"Error fetching api: {e}")
 
 
 
@@ -43,7 +43,7 @@ f = open ("topics2.txt", "r", encoding="utf-8")
 
 
 
-with concurrent.futures.ThreadPoolExecutor() as executor:
+with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
 
     futures = [executor.submit(fetch_and_write, re.sub(r'[<>:"/\\|?*\n]', '', topic)) for topic in f.readlines()]
     for future in concurrent.futures.as_completed(futures):

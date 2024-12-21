@@ -1,0 +1,3 @@
+This list of computer science awards is an index to articles on notable awards related to computer science. It includes lists of awards by the Association for Computing Machinery, the Institute of Electrical and Electronics Engineers, other computer science and information science awards, and a list of computer science competitions.
+The top computer science award is the ACM Turing Award, generally regarded as the Nobel Prize equivalent for Computer Science. Other highly regarded top computer science awards include IEEE John von Neumann Medal awarded by the IEEE Board of Directors, and the Japan Kyoto Prize for Information Science.
+

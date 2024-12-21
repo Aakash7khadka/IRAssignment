@@ -1,0 +1,2 @@
+In computer science, especially model checking and abstract interpretation, widening refers to at least two different techniques in the analysis of abstract transition systems where infinite progressions of abstract states are replaced by a (computed or guessed) least fixed point. The use of the term in model checking is closely related to acceleration techniques, some authors reserving acceleration for exact computations.
+

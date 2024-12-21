@@ -1,0 +1,340 @@
+In astrophysics, what is referred to as "entropy" is actually the adiabatic constant derived as follows.
+Using the first law of thermodynamics for a quasi-static, infinitesimal process for a hydrostatic system
+
+  
+    
+      
+        d
+        Q
+        =
+        d
+        U
+        −
+        d
+        W
+        .
+      
+    
+    {\displaystyle dQ=dU-dW.}
+  
+  
+For an ideal gas in this special case, the internal energy, U, is a function of only the temperature T; therefore the partial derivative of heat capacity with respect to T is identically the same as the full derivative, yielding through some manipulation
+
+  
+    
+      
+        d
+        Q
+        =
+        
+          C
+          
+            v
+          
+        
+        d
+        T
+        +
+        P
+        
+        d
+        V
+        .
+      
+    
+    {\displaystyle dQ=C_{\text{v}}dT+P\,dV.}
+  
+
+Further manipulation using the differential version of the ideal gas law, the previous equation, and assuming constant pressure, one finds
+
+  
+    
+      
+        d
+        Q
+        =
+        
+          C
+          
+            p
+          
+        
+        d
+        T
+        −
+        V
+        
+        d
+        P
+        .
+      
+    
+    {\displaystyle dQ=C_{\text{p}}dT-V\,dP.}
+  
+
+For an adiabatic process 
+  
+    
+      
+        d
+        Q
+        =
+        0
+        
+      
+    
+    {\displaystyle dQ=0\,}
+  
+ and recalling 
+  
+    
+      
+        γ
+        =
+        
+          
+            C
+            
+              p
+            
+          
+        
+        
+          /
+        
+        
+          
+            C
+            
+              v
+            
+          
+        
+        
+      
+    
+    {\displaystyle \gamma ={C_{\text{p}}}/{C_{\text{v}}}\,}
+  
+,  one finds
+
+One can solve this simple differential equation to find
+
+  
+    
+      
+        P
+        
+          V
+          
+            γ
+          
+        
+        =
+        
+          constant
+        
+        =
+        K
+      
+    
+    {\displaystyle PV^{\gamma }={\text{constant}}=K}
+  
+
+This equation is known as an expression for the adiabatic constant, K, also called the adiabat. From the ideal gas equation one also knows
+
+  
+    
+      
+        P
+        =
+        
+          
+            
+              ρ
+              
+                k
+                
+                  B
+                
+              
+              T
+            
+            
+              μ
+              
+                m
+                
+                  H
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle P={\frac {\rho k_{\text{B}}T}{\mu m_{\text{H}}}},}
+  
+
+where 
+  
+    
+      
+        
+          k
+          
+            B
+          
+        
+      
+    
+    {\displaystyle k_{\text{B}}}
+  
+ is the Boltzmann constant.
+Substituting this into the above equation along with 
+  
+    
+      
+        V
+        =
+        [
+        
+          g
+        
+        ]
+        
+          /
+        
+        ρ
+        
+      
+    
+    {\displaystyle V=[\mathrm {g} ]/\rho \,}
+  
+ and 
+  
+    
+      
+        γ
+        =
+        5
+        
+          /
+        
+        3
+        
+      
+    
+    {\displaystyle \gamma =5/3\,}
+  
+ for an ideal monatomic gas one finds
+
+  
+    
+      
+        K
+        =
+        
+          
+            
+              
+                k
+                
+                  B
+                
+              
+              T
+            
+            
+              (
+              ρ
+              
+                /
+              
+              μ
+              
+                m
+                
+                  H
+                
+              
+              
+                )
+                
+                  2
+                  
+                    /
+                  
+                  3
+                
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle K={\frac {k_{\text{B}}T}{(\rho /\mu m_{\text{H}})^{2/3}}},}
+  
+
+where 
+  
+    
+      
+        μ
+        
+      
+    
+    {\displaystyle \mu \,}
+  
+ is the mean molecular weight of the gas or plasma; and 
+  
+    
+      
+        
+          m
+          
+            H
+          
+        
+      
+    
+    {\displaystyle m_{\text{H}}}
+  
+ is the mass of the hydrogen atom, which is extremely close to the mass of the proton, 
+  
+    
+      
+        
+          m
+          
+            p
+          
+        
+      
+    
+    {\displaystyle m_{p}}
+  
+, the quantity more often used in astrophysical theory of galaxy clusters.
+This is what astrophysicists refer to as "entropy" and has units of [keV⋅cm2]. This quantity relates to the thermodynamic entropy as
+
+  
+    
+      
+        Δ
+        S
+        =
+        3
+        
+          /
+        
+        2
+        ln
+        ⁡
+        K
+        .
+      
+    
+    {\displaystyle \Delta S=3/2\ln K.}
+  
+

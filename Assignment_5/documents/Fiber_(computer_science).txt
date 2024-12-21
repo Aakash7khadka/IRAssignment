@@ -1,0 +1,2 @@
+In computer science, a fiber is a particularly lightweight thread of execution.
+Like threads, fibers share address space. However, fibers use cooperative multitasking while threads use preemptive multitasking. Threads often depend on the kernel's thread scheduler to preempt a busy thread and resume another thread; fibers yield themselves to run another fiber while executing.

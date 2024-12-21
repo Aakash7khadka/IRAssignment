@@ -1,0 +1,2 @@
+In string theory, K-theory classification refers to a conjectured application of K-theory (in abstract algebra and algebraic topology) to superstrings, to classify the allowed Ramond–Ramond field strengths as well as the charges of stable D-branes.
+In condensed matter physics K-theory has also found important applications, specially in the topological classification of topological insulators, superconductors and stable Fermi surfaces (Kitaev (2009), Horava (2005)).

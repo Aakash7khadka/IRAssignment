@@ -1,0 +1,8 @@
+The European Association for Theoretical Computer Science (EATCS) is an international organization with a European focus, founded in 1972. Its aim is to facilitate the exchange of ideas and results among theoretical computer scientists as well as to stimulate cooperation between the theoretical and the practical community in computer science.
+The major activities of the EATCS are:
+
+Organization of ICALP, the International Colloquium on Automata, Languages and Programming;
+Publication of the Bulletin of the EATCS;
+Publication of a series of monographs and texts on theoretical computer science;
+Publication of the journal Theoretical Computer Science;
+Publication of the journal Fundamenta Informaticae.

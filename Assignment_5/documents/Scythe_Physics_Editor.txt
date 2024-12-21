@@ -1,0 +1,1 @@
+Scythe is a free software physics modeling program. It allows the merging of physics and graphics content in one package. It provides native support for modeling the rigid body physics for the Newton Game Dynamics, the Open Dynamics Engine and PhysX engine. The Physics Abstraction Layer also provides support for the Scythe format.

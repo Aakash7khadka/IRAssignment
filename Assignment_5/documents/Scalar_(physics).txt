@@ -1,0 +1,6 @@
+Scalar quantities or simply scalars are physical quantities that can be described by a single pure number (a scalar, typically a real number), accompanied by a unit of measurement, as in "10 cm" (ten centimeters).
+Examples of scalar quantities are length, mass, charge, volume, and time. 
+Scalars may represent the magnitude of physical quantities, such as speed is to velocity.
+Scalars are unaffected by changes to a vector space basis (i.e., a coordinate rotation) but may be affected by translations (as in relative speed).
+A change of a vector space basis changes the description of a vector in terms of the basis used but does not change the vector itself, while a scalar has nothing to do with this change. In classical physics, like Newtonian mechanics, rotations and reflections preserve scalars, while in relativity, Lorentz transformations or space-time translations preserve scalars. The term "scalar" has origin in the multiplication of vectors by a unitless scalar, which is a uniform scaling transformation.
+

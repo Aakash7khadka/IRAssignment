@@ -1,0 +1,2 @@
+In computer science, algebraic semantics is a form of axiomatic semantics based on algebraic laws for describing and reasoning about program specifications in a formal manner.
+

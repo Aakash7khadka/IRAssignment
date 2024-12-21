@@ -1,0 +1,2 @@
+In computer science, marshalling or marshaling (US spelling) is the process of transforming the memory representation of an object into a data format suitable for storage or transmission, especially between different runtimes. It is typically used when data must be moved between different parts of a computer program or from one program to another. 
+Marshalling simplifies complex communications, because it allows using composite objects instead of being restricted to primitive objects.

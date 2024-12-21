@@ -1,0 +1,10 @@
+cGh physics refers to the historical attempts in physics to unify relativity, gravitation, and quantum mechanics, in particular following the ideas of Matvei Petrovich Bronstein and George Gamow. The letters are the standard symbols for the speed of light (c), the gravitational constant (G), and the Planck constant (h).
+If one considers these three universal constants as the basis for a 3-D coordinate system and envisions a cube, then this pedagogic construction provides a framework, which is referred to as the cGh cube, or physics cube, or cube of theoretical physics (CTP). This cube can be used for organizing major subjects within physics as occupying each of the eight corners. The eight corners of the cGh physics cube are:
+
+Classical mechanics (_, _, _)
+Special relativity (c, _, _), gravitation (_, G, _), quantum mechanics (_, _, h)
+General relativity (c, G, _), quantum field theory (c, _, h), non-relativistic quantum theory with gravity (_, G, h)
+Theory of everything, or relativistic quantum gravity (c, G, h)
+Other cGh physics topics include Hawking radiation and black-hole thermodynamics.
+While there are several other physical constants, these three are given special consideration because they can be used to define all Planck units and thus all physical quantities. The three constants are therefore used sometimes as a framework for philosophical study and as one of pedagogical patterns.
+

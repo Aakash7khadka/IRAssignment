@@ -1,0 +1,39 @@
+In physics, a force field is a vector field corresponding with a non-contact force acting on a particle at various positions in space. Specifically, a force field is a vector field 
+  
+    
+      
+        
+          F
+        
+      
+    
+    {\displaystyle \mathbf {F} }
+  
+, where 
+  
+    
+      
+        
+          F
+        
+        (
+        
+          r
+        
+        )
+      
+    
+    {\displaystyle \mathbf {F} (\mathbf {r} )}
+  
+ is the force that a particle would feel if it were at the position 
+  
+    
+      
+        
+          r
+        
+      
+    
+    {\displaystyle \mathbf {r} }
+  
+.

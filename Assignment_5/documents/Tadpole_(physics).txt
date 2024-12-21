@@ -1,0 +1,7 @@
+In quantum field theory, a tadpole is a one-loop Feynman diagram with one external leg, giving a contribution to a one-point correlation function (i.e., the field's vacuum expectation value). One-loop diagrams with a propagator that connects back to its originating vertex are often also referred as tadpoles. For many massless theories, these graphs vanish in dimensional regularization (by dimensional analysis and the absence of any inherent mass scale in the loop integral).
+Tadpole corrections are needed if the corresponding external field has a non-zero vacuum expectation value, such as the Higgs field.
+
+Tadpole diagrams were first used in the 1960s. An early example was published by Abdus Salam in 1961, though he did not take credit for the name. Physicists Sidney Coleman and Sheldon Glashow made an influential use of tadpole diagrams to explain symmetry breaking in the strong interaction in 1964.
+
+In 1985 Coleman stated (perhaps as a joke) that Physical Review’s editors rejected the originally proposed name "spermion".
+

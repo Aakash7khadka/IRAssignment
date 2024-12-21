@@ -1,0 +1,1 @@
+In computer science, synchronization is the task of coordinating multiple processes to join up or handshake at a certain point, in order to reach an agreement or commit to a certain sequence of action.

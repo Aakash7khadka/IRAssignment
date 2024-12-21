@@ -1,0 +1,3 @@
+In physics, Rosser's equation aids in understanding the role of displacement current in Maxwell's equations, given that there is no aether in empty space as initially assumed by Maxwell. Due originally to William G.V. Rosser, the equation was labeled by Selvan:
+
+It can thus be seen that Rosser's Equation (19) in terms of transverse current density has actually hidden away the displacement current.

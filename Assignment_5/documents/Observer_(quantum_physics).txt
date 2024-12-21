@@ -1,0 +1,2 @@
+Some interpretations of quantum mechanics posit a central role for an observer of a quantum phenomenon. The quantum mechanical observer is tied to the issue of observer effect, where a measurement necessarily requires interacting with the physical object being measured, affecting its properties through the interaction. The term "observable" has gained a technical meaning, denoting a Hermitian operator that represents a measurement.: 55 
+

@@ -1,0 +1,3 @@
+In theoretical physics, an invariant is an observable of a physical system which remains unchanged under some transformation. Invariance, as a broader term, also applies to the no change of form of physical laws under a transformation, and is closer in scope to the mathematical definition. Invariants of a system are deeply tied to the symmetries imposed by its environment.
+Invariance is an important concept in modern theoretical physics, and many theories are expressed in terms of their symmetries and invariants.
+

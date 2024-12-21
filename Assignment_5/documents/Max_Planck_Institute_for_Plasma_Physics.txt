@@ -1,0 +1,6 @@
+The Max Planck Institute for Plasma Physics (German: Max-Planck-Institut für Plasmaphysik, IPP) is a physics institute investigating the physical foundations of a fusion power plant. 
+The IPP is an institute of the Max Planck Society, part of the European Atomic Energy Community, and an associated member of the Helmholtz Association.
+The IPP has two sites: Garching near Munich (founded 1960) and Greifswald (founded 1994), both in Germany.
+It owns several large devices, namely the experimental tokamak ASDEX Upgrade (in operation since 1991), the experimental stellarator Wendelstein 7-X (in operation since 2016),  a tandem accelerator and a high heat flux test facility (GLADIS)
+Furthermore it cooperates closely with the ITER, DEMO and JET projects.
+The International Helmholtz Graduate School for Plasma Physics partners with the Technical University of Munich (TUM) and the University of Greifswald. Associated partners are the Leibniz Institute for Plasma Science and Technology (INP) in Greifswald and the Leibniz Computational Center (LRZ) in Garching.

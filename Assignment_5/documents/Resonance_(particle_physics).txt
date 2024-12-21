@@ -1,0 +1,43 @@
+In particle physics, a resonance is the peak located around a certain energy found in differential cross sections of scattering experiments. These peaks are associated with subatomic particles, which include a variety of bosons, quarks and hadrons (such as nucleons, delta baryons or upsilon mesons) and their excitations. In common usage, "resonance" only describes particles with very short lifetimes, mostly high-energy hadrons existing for 10−23 seconds or less. It is also used to describe particles in intermediate steps of a decay, so-called virtual particles.
+The width of the resonance (Γ) is related to the mean lifetime (τ) of the particle (or its excited state) by the relation
+
+  
+    
+      
+        Γ
+        =
+        
+          
+            ℏ
+            τ
+          
+        
+      
+    
+    {\displaystyle \Gamma ={\frac {\hbar }{\tau }}}
+  
+
+where 
+  
+    
+      
+        
+          ℏ
+        
+        =
+        
+          
+            h
+            
+              2
+              π
+            
+          
+        
+      
+    
+    {\displaystyle {\hbar }={\frac {h}{2\pi }}}
+  
+ and h is the Planck constant.
+Thus, the lifetime of a particle is the direct inverse of the particle's resonance width. For example, the charged pion has the second-longest lifetime of any meson, at 2.6033×10−8 s. Therefore, its resonance width is very small, about 2.528×10−8 eV or about 6.11 MHz. Pions are generally not considered as "resonances". The charged rho meson has a very short lifetime, about 4.41×10−24 s. Correspondingly, its resonance width is very large, at 149.1 MeV or about 36 ZHz. This amounts to nearly one-fifth of the particle's rest mass.
+

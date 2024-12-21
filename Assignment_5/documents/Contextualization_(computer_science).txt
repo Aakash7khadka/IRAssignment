@@ -1,0 +1,1 @@
+In computer science, contextualization is the process of identifying the data relevant to an entity (e.g., a person or a city) based on the entity's contextual information.

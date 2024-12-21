@@ -1,0 +1,1 @@
+In computer science, an instance is an occurrence of a software element that is based on a type definition. When created, an occurrence is said to have been instantiated, and both the creation process and the result of creation are called instantiation.

@@ -1,0 +1,1 @@
+The Stanford Physics Information Retrieval System (SPIRES) is a database management system developed by Stanford University. It is used by universities, colleges and research institutions. The first website in North America was created to allow remote users access to its database.
