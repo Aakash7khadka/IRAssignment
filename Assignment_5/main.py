@@ -1,10 +1,11 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, QLineEdit
-from PyQt5.QtGui import QPainter, QColor, QPen
+from PyQt5.QtGui import QPainter, QColor, QPen, QPixmap
 from PyQt5.QtCore import Qt, QPoint
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
+from index import get_reponse
 
 class ClusteringVisualizer(QMainWindow):
     def __init__(self):
@@ -34,19 +35,8 @@ class ClusteringVisualizer(QMainWindow):
 
     def cluster_results(self):
         query = self.search_input.text()
-        # Here we simulate fetching results; in real use, you'd query a database or web service
-        mock_results = [
-            "Python Machine Learning",
-            "Clustering Algorithms in Python",
-            "Data Science with Python",
-            "K-means explained",
-            "Hierarchical Clustering",
-            "Machine Learning Basics",
-            "Practical Data Mining with Python",
-            "Understanding TF-IDF",
-            "Text clustering methods",
-            "Sklearn clustering tutorial"
-        ]
+        results = get_reponse(query)
+        mock_results = [x[1] for x in results]
 
         # Vectorize the text data
         vectorizer = TfidfVectorizer(stop_words='english')
@@ -61,6 +51,9 @@ class ClusteringVisualizer(QMainWindow):
         self.draw_clusters(mock_results, labels)
 
     def draw_clusters(self, results, labels):
+        if self.canvas.pixmap() is None:
+            self.canvas.setPixmap(QPixmap(self.canvas.size()))
+            self.canvas.pixmap().fill(Qt.white)
         painter = QPainter(self.canvas.pixmap())
         painter.begin(self.canvas.pixmap())
 

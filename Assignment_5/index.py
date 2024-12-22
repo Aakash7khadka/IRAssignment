@@ -33,8 +33,9 @@ def get_reponse(query):
     if response['hits']['hits']:
         print("test")
         response_list = response['hits']['hits']
-        output_list = [{response["_source"]['title'] : response['_source']['document']} for response in response_list]
+        output_list = [[response["_source"]['title'], response['_source']['document']] for response in response_list]
         print(output_list)
+        return output_list
         
 
 def create_index(es):
@@ -42,6 +43,7 @@ def create_index(es):
     index_settings = {
         "settings": {
             "number_of_replicas": 0,  # Set replication to 0 for local environment
+            "index.max_ngram_diff": 20,
             "analysis": {
                 "tokenizer": {
                     "custom_tokenizer": {
@@ -55,8 +57,16 @@ def create_index(es):
                         "tokenizer": "custom_tokenizer",
                         "filter": [
                             "lowercase", 
-                            "stop"     
+                            "stop",
+                            "custom_filter"     
                         ]
+                    }
+                },
+                "filter":{
+                    "custom_filter":{
+                        "type": "ngram",
+                        "min_gram": 1,
+                        "max_gram": 20
                     }
                 }
             }
@@ -84,6 +94,6 @@ def create_index(es):
 
    
 # create_index(es) 
-get_reponse("germany")
+# get_reponse("machin")
 
     # Create the index
