@@ -24,11 +24,12 @@ class MatplotlibWidget(QWidget):
         self.layout().addWidget(self.canvas)
         self.ax = self.figure.add_subplot(111)
         
-        self.ax.set_title ("")
+        self.ax.set_title ("Clustered Search Results")
         self.figure.tight_layout()
 
         self.x = []
         self.y = []
+        self.labels = []
     
         
     def set_suptitle (self, str: str, color: str) -> None:
@@ -44,16 +45,32 @@ class MatplotlibWidget(QWidget):
         
     def _display_plot (self):
         self.ax.grid (True)
-        self.ax.scatter (self.x, self.y)
+        scatter = self.ax.scatter (self.x, self.y, c=self.labels, cmap='viridis', s=100)
+        colorbar = self.figure.colorbar(scatter, ax=self.ax, orientation='vertical')
+        colorbar.set_label('')
                             
     def plot(self) -> None:
         self.ax.clear()
         self._display_plot ()
         self.canvas.draw()
 
-    def set_x_y (self, x, y):
+    def set_x_y_label (self, x, y, labels):
         self.x = x
         self.y = y
+        self.labels = labels
 
     def set_title (self, title: str) -> None:
         self.ax.set_title(title)
+
+    def annotate (self, annotations):
+        for i, txt in enumerate(annotations):
+            self.ax.annotate(
+                txt[:20],  
+                (self.x[i], self.y[i]),
+                fontsize=8
+            )
+
+    def clear_plot(self) -> None:
+        self.ax.clear()  
+        self.ax.set_title("Clustered Search Results")  
+        

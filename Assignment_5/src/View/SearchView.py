@@ -32,6 +32,7 @@ from src.Controller.StackedLayoutController import StackeLayoutController
 class SearchView (QWidget):
     
     change_stacked_layout_change = pyqtSignal ()
+    cluster_documents = pyqtSignal (list)
     
     def __init__(self, controller: StackeLayoutController) -> None:
         super().__init__()
@@ -46,6 +47,7 @@ class SearchView (QWidget):
         self.search_button.pressed.connect (self.search)
         self.change_to_cluster_view_button = QPushButton ("Cluster")
         self.change_to_cluster_view_button.pressed.connect (lambda: self.change_stacked_layout_change.emit ())
+        self.search_controller.send_relevant_document_list.connect (self.display_relevant_documents)
         
 
         self.scroll_widget = QWidget ()
@@ -57,25 +59,10 @@ class SearchView (QWidget):
         self.scroll_area.setWidgetResizable (True)
         self.scroll_area.setWidget (self.scroll_widget)
 
-        self.rel_doc_1 = self.build_relevant_doc_for_display ("Machine Learning",
-                                                              "This is a test description to get the basic idea of how this is going to look in the UI.")
-        self.rel_doc_2 = self.build_relevant_doc_for_display ("Machine Learning",
-                                                              "This is a test description to get the basic idea of how this is going to look in the UI.")
-        self.rel_doc_3 = self.build_relevant_doc_for_display ("Machine Learning",
-                                                              "This is a test description to get the basic idea of how this is going to look in the UI.")
-        self.rel_doc_4 = self.build_relevant_doc_for_display ("Machine Learning",
-                                                              "This is a test description to get the basic idea of how this is going to look in the UI.")
-        self.rel_doc_5 = self.build_relevant_doc_for_display ("Machine Learning",
-                                                              "This is a test description to get the basic idea of how this is going to look in the UI.")
-        self.rel_doc_6 = self.build_relevant_doc_for_display ("Machine Learning",
-                                                              "This is a test description to get the basic idea of how this is going to look in the UI.")
-        
+        self.rel_doc_1 = self.build_relevant_doc_for_display ("Your search results will be displayed here",
+                                                              "")
+       
         self.scroll_layout.addWidget (self.rel_doc_1)
-        self.scroll_layout.addWidget (self.rel_doc_2)
-        self.scroll_layout.addWidget (self.rel_doc_3)
-        self.scroll_layout.addWidget (self.rel_doc_4)
-        self.scroll_layout.addWidget (self.rel_doc_5)
-        self.scroll_layout.addWidget (self.rel_doc_6)
 
 
         self.main_grid_layout.addWidget (self.input_line_edit, 0, 0, 1, 10)
@@ -105,3 +92,14 @@ class SearchView (QWidget):
         query = self.input_line_edit.text()
         self.search_controller.search (query)
 
+    def display_relevant_documents (self, doc_list):
+        while self.scroll_layout.count() > 0:
+            child = self.scroll_layout.takeAt(0)
+            if child.widget():
+                child.widget().deleteLater()
+        for doc in doc_list:
+            rel_doc = self.build_relevant_doc_for_display (doc[0],doc[1])
+        
+            self.scroll_layout.addWidget (rel_doc)
+
+        self.cluster_documents.emit (doc_list)

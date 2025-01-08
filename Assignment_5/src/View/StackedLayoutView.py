@@ -44,9 +44,13 @@ class Stacked_Layout_View (QWidget):
     def process_signals (self):
         self.search_view.change_stacked_layout_change.connect (self.display_cluster_view)
         self.cluster_view.change_stacked_layout_change.connect (self.display_search_view)
+        self.search_view.cluster_documents.connect (self.cluster)
 
     def display_cluster_view (self):
         self.stackedLayout.setCurrentIndex (1)
 
     def display_search_view (self):
         self.stackedLayout.setCurrentIndex (0)
+
+    def cluster (self, doc_list: list):
+        self.stacked_layout_controller.cluster_controller.cluster (doc_list)

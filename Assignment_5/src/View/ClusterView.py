@@ -46,22 +46,32 @@ class ClusterView (QWidget):
         
         self.main_grid_layout = QGridLayout ()
         
-        self.input_line_edit = QLineEdit ()
-        self.search_button = QPushButton ("Search")
-        self.change_to_search_view_button = QPushButton ("Cluster")
+        #self.input_line_edit = QLineEdit ()
+        #self.search_button = QPushButton ("Search")
+        self.change_to_search_view_button = QPushButton ("Search")
         self.change_to_search_view_button.pressed.connect (lambda: self.change_stacked_layout_change.emit ())
+
+        self.cluster_controller.cluster_data.connect (self.cluster_data)
 
         self.cluster_graph = MatplotlibWidget ()
 
-        self.cluster_graph.set_x_y([1, 1.1, 1.3, 4, 4.2, 4.1], [1, 0.9, 1.1, 4, 3.9, 4.1])
-        self.cluster_graph._display_plot ()
+        #self.cluster_graph.set_x_y([1, 1.1, 1.3, 4, 4.2, 4.1], [1, 0.9, 1.1, 4, 3.9, 4.1])
+        #self.cluster_graph._display_plot ()
         
-        self.main_grid_layout.addWidget (self.input_line_edit, 0, 0, 1, 10)
-        self.main_grid_layout.addWidget (self.search_button, 0, 10, 1, 2)
+        #self.main_grid_layout.addWidget (self.input_line_edit, 0, 0, 1, 10)
+        #self.main_grid_layout.addWidget (self.search_button, 0, 10, 1, 2)
         self.main_grid_layout.addWidget (self.cluster_graph, 1, 0, 10, 12)
         self.main_grid_layout.addWidget (self.change_to_search_view_button, 12, 4, 1, 4)
 
         self.setLayout (self.main_grid_layout)
+
+    def cluster_data (self, reduced_data, one_dim_doc_list, cluster_labels):
+        self.cluster_graph = MatplotlibWidget ()
+        self.main_grid_layout.addWidget (self.cluster_graph, 1, 0, 10, 12)
+        self.cluster_graph.set_x_y_label (reduced_data[:, 0], reduced_data[:, 1], cluster_labels)
+        self.cluster_graph._display_plot ()
+        self.cluster_graph.annotate (one_dim_doc_list)
+
 
 
 
