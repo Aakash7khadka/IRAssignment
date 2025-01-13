@@ -15,9 +15,11 @@ import os
 
 list = []
 
+wikipedia_topics_path = "Wikipedia_topics.txt"
+
 f = open ("topics2.txt", "a", encoding="utf-8")
 
-with open ("Wikipedia_topics.txt", "r", encoding="utf-8") as file:
+with open (wikipedia_topics_path, "r", encoding="utf-8") as file:
     for topic in file.readlines():
         if "computer_science" in topic.lower () or "machine_learning" in topic.lower () or "physics" in topic.lower ():
             f.write(topic)
