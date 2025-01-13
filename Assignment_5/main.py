@@ -5,7 +5,7 @@ from PyQt5.QtCore import Qt, QPoint
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
-from index import get_reponse
+from Assignment_5.create_index import get_reponse
 
 class ClusteringVisualizer(QMainWindow):
     def __init__(self):

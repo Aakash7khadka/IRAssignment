@@ -31,7 +31,6 @@ def get_reponse(query):
 		}
 	})
     if response['hits']['hits']:
-        print("test")
         response_list = response['hits']['hits']
         output_list = [[response["_source"]['title'], response['_source']['document']] for response in response_list]
         print(output_list)
@@ -93,7 +92,7 @@ def create_index(es):
 
 
    
-# create_index(es) 
+create_index(es) 
 # get_reponse("machin")
 
     # Create the index

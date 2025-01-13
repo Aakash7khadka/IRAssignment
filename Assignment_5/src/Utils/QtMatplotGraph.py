@@ -65,7 +65,7 @@ class MatplotlibWidget(QWidget):
     def annotate (self, annotations):
         for i, txt in enumerate(annotations):
             self.ax.annotate(
-                txt[:20],  
+                txt[:50],  
                 (self.x[i], self.y[i]),
                 fontsize=8
             )

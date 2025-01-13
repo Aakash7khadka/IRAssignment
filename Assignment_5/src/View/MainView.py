@@ -28,7 +28,7 @@ class MainView(QWidget):
         super().__init__()
         
         self.setWindowTitle ('Searcher')
-        self.setWindowIcon (QtGui.QIcon ("./Image/favicon.png"))
+        self.setWindowIcon (QtGui.QIcon ("favicon.png"))
         
         self.applyStyles ()
         

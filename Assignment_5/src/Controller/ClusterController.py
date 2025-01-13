@@ -26,7 +26,7 @@ class ClusterController (QObject):
         vectorizer = TfidfVectorizer(stop_words='english')
         X = vectorizer.fit_transform(one_dim_doc_list)
 
-        num_clusters = 3  
+        num_clusters = 2  
         kmeans = KMeans(n_clusters=num_clusters, random_state=42)
         kmeans.fit(X)
 

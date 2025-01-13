@@ -21,11 +21,11 @@ class HeaderView (QWidget):
         
         home_layout = QHBoxLayout ()
 
-        self.data_loaded_state_label = QLabel ("Data available / Data not available")
-        self.load_data_button = QPushButton ("Load Data")
+        self.data_loaded_state_label = QLabel ("Search Engine By Group4[Gowtham Premkumar, Aakash Khadka, Max Neubauer]")
+        #self.load_data_button = QPushButton ("Load Data")
         
         home_layout.addWidget (self.data_loaded_state_label)
         home_layout.addStretch ()
-        home_layout.addWidget (self.load_data_button)
+        #home_layout.addWidget (self.load_data_button)
         
         self.setLayout (home_layout)
