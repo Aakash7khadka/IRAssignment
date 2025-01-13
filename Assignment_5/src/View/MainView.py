@@ -102,6 +102,12 @@ class MainView(QWidget):
 
         # Apply stylesheet
         self.setStyleSheet(f"""
+            QLabel#header {{
+                font-size: 15px;
+                color: black;
+                font-weight: bold;
+                background-color: {background_color};
+            }}
             QDoubleSpinBox {{
                 border: 1px solid {secondary_color};
                 border-radius: 5px;

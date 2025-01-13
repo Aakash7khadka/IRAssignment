@@ -79,6 +79,7 @@ class SearchView (QWidget):
         v_layout = QVBoxLayout ()
 
         key_word_label = QLabel (key_word)
+        key_word_label.setObjectName ("header")
         description_label = QLabel (description)
 
         v_layout.addWidget (key_word_label)
