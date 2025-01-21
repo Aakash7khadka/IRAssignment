@@ -52,5 +52,5 @@ class Stacked_Layout_View (QWidget):
     def display_search_view (self):
         self.stackedLayout.setCurrentIndex (0)
 
-    def cluster (self, doc_list: list):
-        self.stacked_layout_controller.cluster_controller.cluster (doc_list)
+    def cluster (self, doc_list: list, number_of_cluster):
+        self.stacked_layout_controller.cluster_controller.cluster (doc_list, number_of_cluster)

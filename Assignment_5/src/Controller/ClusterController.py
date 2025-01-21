@@ -19,14 +19,14 @@ class ClusterController (QObject):
     def __init__(self):
         super().__init__()
 
-    def cluster (self, doc_list):
+    def cluster (self, doc_list, number_of_cluster):
 
         one_dim_doc_list = [doc[0] + ". " + doc[1] for doc in doc_list]
 
         vectorizer = TfidfVectorizer(stop_words='english')
         X = vectorizer.fit_transform(one_dim_doc_list)
 
-        num_clusters = 2  
+        num_clusters = int (number_of_cluster) 
         kmeans = KMeans(n_clusters=num_clusters, random_state=42)
         kmeans.fit(X)
 

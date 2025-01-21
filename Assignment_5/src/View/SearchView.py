@@ -14,7 +14,8 @@ from PyQt5.QtWidgets import (
     QLineEdit,
     QHBoxLayout,
     QScrollArea,
-    QLabel
+    QLabel,
+    QSpinBox
 )
 
 from PyQt5 import(
@@ -32,7 +33,7 @@ from src.Controller.StackedLayoutController import StackeLayoutController
 class SearchView (QWidget):
     
     change_stacked_layout_change = pyqtSignal ()
-    cluster_documents = pyqtSignal (list)
+    cluster_documents = pyqtSignal (list, str)
     
     def __init__(self, controller: StackeLayoutController) -> None:
         super().__init__()
@@ -44,6 +45,9 @@ class SearchView (QWidget):
         
         self.input_line_edit = QLineEdit ()
         self.search_button = QPushButton ("Search")
+        self.spin_box = QSpinBox ()
+        self.spin_box.setRange (1, 10)
+        self.spin_box.setValue (2)
         self.search_button.pressed.connect (self.search)
         self.change_to_cluster_view_button = QPushButton ("Cluster")
         self.change_to_cluster_view_button.pressed.connect (lambda: self.change_stacked_layout_change.emit ())
@@ -65,7 +69,8 @@ class SearchView (QWidget):
         self.scroll_layout.addWidget (self.rel_doc_1)
 
 
-        self.main_grid_layout.addWidget (self.input_line_edit, 0, 0, 1, 10)
+        self.main_grid_layout.addWidget (self.input_line_edit, 0, 0, 1, 8)
+        self.main_grid_layout.addWidget (self.spin_box, 0, 8, 1, 2)
         self.main_grid_layout.addWidget (self.search_button, 0, 10, 1, 2)
         self.main_grid_layout.addWidget (self.scroll_area, 1, 0, 10, 12)
         self.main_grid_layout.addWidget (self.change_to_cluster_view_button, 12, 4, 1, 4)
@@ -91,9 +96,10 @@ class SearchView (QWidget):
 
     def search (self):
         query = self.input_line_edit.text()
-        self.search_controller.search (query)
+        number_of_clusters = self.spin_box.text ()
+        self.search_controller.search (query, number_of_clusters)
 
-    def display_relevant_documents (self, doc_list):
+    def display_relevant_documents (self, doc_list, number_of_clusters):
         while self.scroll_layout.count() > 0:
             child = self.scroll_layout.takeAt(0)
             if child.widget():
@@ -103,4 +109,4 @@ class SearchView (QWidget):
         
             self.scroll_layout.addWidget (rel_doc)
 
-        self.cluster_documents.emit (doc_list)
+        self.cluster_documents.emit (doc_list, number_of_clusters)
