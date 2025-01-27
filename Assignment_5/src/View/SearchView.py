@@ -69,7 +69,12 @@ class SearchView (QWidget):
         self.scroll_layout.addWidget (self.rel_doc_1)
 
 
-        self.main_grid_layout.addWidget (self.input_line_edit, 0, 0, 1, 8)
+        self.main_grid_layout.addWidget (self.input_line_edit, 0, 0, 1, 6)
+
+        self.cluster_label = QLabel ("Number of Clusters:")
+        self.cluster_label.setObjectName ("header")
+        self.main_grid_layout.addWidget (self.cluster_label, 0, 6, 1, 2)
+
         self.main_grid_layout.addWidget (self.spin_box, 0, 8, 1, 2)
         self.main_grid_layout.addWidget (self.search_button, 0, 10, 1, 2)
         self.main_grid_layout.addWidget (self.scroll_area, 1, 0, 10, 12)
