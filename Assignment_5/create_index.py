@@ -84,7 +84,7 @@ def create_index(es):
         }
     }
 
-    index_name = "ir_index"
+    index_name = "ir_index1"
     if es.indices.exists(index=index_name):
         es.indices.delete(index=index_name)  # Delete the index if it already exists
     es.indices.create(index=index_name, body=index_settings)
