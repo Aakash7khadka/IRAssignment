@@ -18,6 +18,7 @@ def ollama_embed(text, model="nomic-embed-text"):
 def add_docs_to_index(es, index_name, docs):
 
     important_fields_to_embed = [
+        "abbreviation",
         "module_title",
         "applicability_in_curriculum",
         "classes",
@@ -29,9 +30,9 @@ def add_docs_to_index(es, index_name, docs):
         "level",
         "literature",
         "module_title",
-        "pre_examination_requirements",
-        "prerequisites_according_to_examination_regulations",
-        "recommended_prerequisites",
+        # "pre_examination_requirements",
+        # "prerequisites_according_to_examination_regulations",
+        # "recommended_prerequisites",
         "responsibility",
         "semester",
         "teaching_method_sws",

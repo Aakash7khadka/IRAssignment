@@ -1,6 +1,16 @@
 import requests
 from elasticsearch import Elasticsearch
 
+to_parse_fields = ["module_title",
+                    "lecturer",
+                    "applicability_in_curriculum", 
+                    "language"
+                    "type_of_examination",
+                    "semester",
+                    "intended_learning_outcomes",
+                    "abbreviation"
+                      ]
+
 def ollama_embed(text, model="nomic-embed-text"):
     response = requests.post(
         "http://localhost:11434/api/embeddings",
@@ -22,9 +32,7 @@ def semantic_search(es, index_name, question, k=3):
             "k": k,
             "num_candidates": 50
         },
-        "_source": [
-            "module_title", "lecturer", "content", "intended_learning_outcomes"
-        ]
+        "_source": to_parse_fields
     }
     resp = es.search(index=index_name, body=body)
     print(resp)
@@ -32,13 +40,22 @@ def semantic_search(es, index_name, question, k=3):
 
 
 def build_prompt(question, docs):
-    context = "\n\n".join([
-        f"Module: {d['module_title']}\nLecturer: {d['lecturer']}\nContent: {', '.join(d['content'])}\nOutcomes: {', '.join(d['intended_learning_outcomes'])}"
-        for d in docs
-    ])
+    # context = "\n\n".join([
+    #     f"Module or course: {d['module_title']}\nLecturer: {d['lecturer']}\nContent: {', '.join(d['content'])}\nOutcomes: {', '.join(d['intended_learning_outcomes'])}"
+    #     for d in docs
+    # ])
+    context = ""
+    # context = "\n".join([line + ": " + str(docs[0].get(line, "")) for line in to_parse_fields if len(docs) > 0])
+    for i, doc in enumerate(docs):
+        doc_name = f"Document {i+1}"
+        doc_dict = "\n".join([line + ": " + str(doc.get(line, "")) for line in to_parse_fields])
+        context += f"\n\n{doc_name}:\n{doc_dict}"
+
     return f"""You are a helpful assistant.
-                Answer the question using only the context below.
-                If the answer is not in the context, say you don't know.
+                Answer the question using only the context below. Look for all the data fields in the context for applicable documents for the query.
+                If the answer is not present or cannot be derived from the context, say you don't know.
+
+                If the user asks using incorrect values that match the field values, correct them using the context.
 
                 Question: {question}
 

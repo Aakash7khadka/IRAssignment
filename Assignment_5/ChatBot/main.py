@@ -221,7 +221,7 @@ User Query to Process:
     # Print the generated response
 
     resp = response.json()["response"]
-    print(resp)
+    # print(resp)
 
 
 if __name__ == "__main__":

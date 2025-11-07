@@ -177,7 +177,8 @@ def get_handbook_data():
             "https://bookstack.cs.ovgu.de/books/msc-data-and-knowledge-engineering-winter-202526-qon/page/introduction-to-simulation",    
             "https://bookstack.cs.ovgu.de/books/msc-data-and-knowledge-engineering-winter-202526-qon/page/machine-learning",
             "https://bookstack.cs.ovgu.de/books/msc-data-and-knowledge-engineering-winter-202526-qon/page/learning-generative-models",
-            "https://bookstack.cs.ovgu.de/books/msc-data-and-knowledge-engineering-sommer-2026-vorlaufig-uBY/page/introduction-to-deep-learning"
+            "https://bookstack.cs.ovgu.de/books/msc-data-and-knowledge-engineering-sommer-2026-vorlaufig-uBY/page/introduction-to-deep-learning",
+            "https://bookstack.cs.ovgu.de/books/msc-data-and-knowledge-engineering-winter-202526-qon/page/data-science-with-python"
             ]
             # You can add more links here for testing]
     page_details = []
